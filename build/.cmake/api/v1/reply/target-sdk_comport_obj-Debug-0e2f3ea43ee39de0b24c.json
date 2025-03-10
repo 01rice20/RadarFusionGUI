@@ -1,0 +1,296 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Unix.c.obj"
+		},
+		{
+			"path" : "sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Windows.c.obj"
+		},
+		{
+			"path" : "sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/ComPort.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"sdk/c/ifxComPort/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"sdk/c/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "IFX_LOG_SEVERITY_INFO=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "radar_sdk_EXPORTS=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxComPort/.."
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -g -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "IFX_LOG_SEVERITY_INFO=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "radar_sdk_EXPORTS=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxComPort/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"id" : "sdk_comport_obj::@137c568abd301793c57a",
+	"name" : "sdk_comport_obj",
+	"paths" : 
+	{
+		"build" : "sdk/c/ifxComPort",
+		"source" : "sdk/c/ifxComPort"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxComPort/COMPort_Unix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxComPort/COMPort_Windows.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "sdk/c/ifxComPort/ComPort.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxComPort/COMPort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxComPort/internal/ComPort.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

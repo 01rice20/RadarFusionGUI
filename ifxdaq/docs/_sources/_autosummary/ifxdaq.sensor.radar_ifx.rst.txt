@@ -1,0 +1,41 @@
+ifxdaq.sensor.radar\_ifx
+========================
+
+.. automodule:: ifxdaq.sensor.radar_ifx
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      antenna_list_to_mask
+      antenna_mask_to_list
+      len_sequence
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      RadarIfxAvian
+      RadarIfxBGT60ATR24C
+      RadarIfxBGT60TR13C
+      RadarIfxBGT60UTR13D
+      SupportedSchemas
+   
+   
+
+   
+   
+   
+
+
+

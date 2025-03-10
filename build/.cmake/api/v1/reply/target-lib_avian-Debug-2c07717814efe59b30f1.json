@@ -1,0 +1,753 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/lib_avian.dll"
+		},
+		{
+			"path" : "external/lib_avian/liblib_avian.dll.a"
+		},
+		{
+			"path" : "bin/lib_avian.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"include",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"external/lib_avian/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -g -g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_IMPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_BUILD=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MINOR=3"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_PATCH=1"
+				},
+				{
+					"define" : "lib_avian_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				20,
+				21,
+				22,
+				23,
+				29,
+				30,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				50,
+				52,
+				54,
+				56,
+				58,
+				59,
+				60
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "strata_shared::@af46ec4be38e64d587b3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "pugixml-static::@16e3eca51e18ac322646"
+		}
+	],
+	"id" : "lib_avian::@6477fcbee9b50dccd2cd",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--fatal-warnings",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\strata\\library\\libstrata_shared-d.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-liphlpapi",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstrmiids",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\strata\\contrib\\pugixml\\pugixml-d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "lib_avian",
+	"nameOnDisk" : "lib_avian.dll",
+	"paths" : 
+	{
+		"build" : "external/lib_avian",
+		"source" : "external/lib_avian"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\include",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Source Files\\include\\ports",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "Source Files\\include\\value_conversion",
+			"sourceIndexes" : 
+			[
+				17,
+				18
+			]
+		},
+		{
+			"name" : "Source Files\\src\\Driver",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "Source Files\\src",
+			"sourceIndexes" : 
+			[
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		},
+		{
+			"name" : "Source Files\\src\\ports",
+			"sourceIndexes" : 
+			[
+				41,
+				42
+			]
+		},
+		{
+			"name" : "Source Files\\src\\register_maps",
+			"sourceIndexes" : 
+			[
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49
+			]
+		},
+		{
+			"name" : "Source Files\\src\\timing_model",
+			"sourceIndexes" : 
+			[
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		},
+		{
+			"name" : "Source Files\\src\\value_conversion",
+			"sourceIndexes" : 
+			[
+				59,
+				60
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				61
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_CwController.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_DataConverter.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_DeviceTraits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_Driver.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_ErrorCodes.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_HwTest.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_IPort.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_ParameterExtractor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_RegisterSet.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_SensorMeter.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_StrataUtilities.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_TimingModel.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_Types.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ifxAvian_Utilities.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ports/ifxAvian_DummyPort.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ports/ifxAvian_StrataControlPort.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/ports/ifxAvian_StrataPort.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/value_conversion/ifxAvian_RfConversion.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/include/value_conversion/ifxAvian_TimingConversion.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/_configuration.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/data_acquisition.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/default_settings.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/easy_mode.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/ifxRadar_BGT60TRxx.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/registers_BGT120TR24E.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/registers_BGT60TR11D.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/registers_BGT60TRxxC.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/registers_BGT60TRxxD.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Driver/registers_BGT60TRxxE.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/spi_programming.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/Driver/testing.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/Version.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_CwController.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_DeviceTraits.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_ErrorCodes.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_HwTest.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_ParameterExtractor.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_RegisterSet.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_SensorMeter.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_StrataUtilities.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ifxAvian_Utilities.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ports/ifxAvian_DummyPort.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/ports/ifxAvian_StrataPort.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT120TR24E_ID000A.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxC_ID0003.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxC_ID0005.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxD_ID0006.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxD_ID0007.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxE_ID0008.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/register_maps/BGT60TRxxE_ID0009.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TR11D.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TR11D.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TRxxC.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TRxxC.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TRxxD.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/timing_model/ModelBGT60TRxxD.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/timing_model/SequenceParameters.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/src/timing_model/SequenceParameters.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/timing_model/StateSequence.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/value_conversion/ifxAvian_RfConversion.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/lib_avian/src/value_conversion/ifxAvian_TimingConversion.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/lib_avian/VersionHistory.txt",
+			"sourceGroupIndex" : 9
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

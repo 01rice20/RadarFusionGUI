@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/components.dir/FlashImage.cpp.obj"
+  "CMakeFiles/components.dir/FlashImage.cpp.obj.d"
+  "CMakeFiles/components.dir/Registers8bitPec.cpp.obj"
+  "CMakeFiles/components.dir/Registers8bitPec.cpp.obj.d"
+  "CMakeFiles/components.dir/imager/ImagerIrs.cpp.obj"
+  "CMakeFiles/components.dir/imager/ImagerIrs.cpp.obj.d"
+  "CMakeFiles/components.dir/imager/ImagerIrs11x5.cpp.obj"
+  "CMakeFiles/components.dir/imager/ImagerIrs11x5.cpp.obj.d"
+  "CMakeFiles/components.dir/imager/ImagerIrs16x5.cpp.obj"
+  "CMakeFiles/components.dir/imager/ImagerIrs16x5.cpp.obj.d"
+  "CMakeFiles/components.dir/imager/PinsIrs.cpp.obj"
+  "CMakeFiles/components.dir/imager/PinsIrs.cpp.obj.d"
+  "CMakeFiles/components.dir/imager/RegistersIrs.cpp.obj"
+  "CMakeFiles/components.dir/imager/RegistersIrs.cpp.obj.d"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemory.cpp.obj"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemory.cpp.obj.d"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp.obj"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp.obj.d"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlash.cpp.obj"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlash.cpp.obj.d"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp.obj"
+  "CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp.obj.d"
+  "CMakeFiles/components.dir/powerSupply/PowerSupplyMax2043xPec.cpp.obj"
+  "CMakeFiles/components.dir/powerSupply/PowerSupplyMax2043xPec.cpp.obj.d"
+  "CMakeFiles/components.dir/powerSupply/SupplyMonitorIna231.cpp.obj"
+  "CMakeFiles/components.dir/powerSupply/SupplyMonitorIna231.cpp.obj.d"
+  "CMakeFiles/components.dir/processing/ProcessingRadar.cpp.obj"
+  "CMakeFiles/components.dir/processing/ProcessingRadar.cpp.obj.d"
+  "CMakeFiles/components.dir/radar/TypeSerialization.cpp.obj"
+  "CMakeFiles/components.dir/radar/TypeSerialization.cpp.obj.d"
+  "CMakeFiles/components.dir/temperature/TemperatureSensorMCP98x43.cpp.obj"
+  "CMakeFiles/components.dir/temperature/TemperatureSensorMCP98x43.cpp.obj.d"
+  "CMakeFiles/components.dir/temperature/TemperatureSensorTMP102.cpp.obj"
+  "CMakeFiles/components.dir/temperature/TemperatureSensorTMP102.cpp.obj.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/components.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

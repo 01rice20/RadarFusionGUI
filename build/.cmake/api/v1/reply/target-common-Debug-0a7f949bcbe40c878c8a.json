@@ -1,0 +1,527 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/crc/Crc6.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/crc/Crc8.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/crc/Crc16.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/crc/Crc32.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/endian/LittleEndianReader.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/Logger.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/Profiler.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeFiles/common.dir/ProductVersion.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"strata_include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"external/strata/library/common/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"external/strata/cmake/Compiler.cmake",
+			"external/strata/Strata.cmake",
+			"external/strata/library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 67,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 11,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 12,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 15,
+					"define" : "STRATA_EXPORT"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "TARGET_PLATFORM_WINDOWS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
+			]
+		}
+	],
+	"id" : "common::@185e4708e1de856dc322",
+	"name" : "common",
+	"paths" : 
+	{
+		"build" : "external/strata/library/common",
+		"source" : "external/strata/library/common"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/cpp11/iterator.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/cpp11/memory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/crc/Crc6.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/crc/Crc8.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/crc/Crc16.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/crc/Crc32.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/endian/Big.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/endian/General.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/endian/Little.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/endian/LittleEndianReader.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/EConfig.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/EException.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/EGenericException.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/ENarrowCast.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/ENotImplemented.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/ETimeout.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/exception/EUninitialized.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Serialization.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/serialization/PayloadBuffer.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/serialization/SerializationSize.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/BinUtils.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Buffer.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/ConsoleRedirect.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/CountingSemaphore.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/EndianConversion.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Finally.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/HandleManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Logger.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/NarrowCast.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Numeric.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Packed12.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/ProductVersion.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Profiler.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Raw12.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Time.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/common/Timing.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/crc/Crc6.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/crc/Crc8.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/crc/Crc16.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/crc/Crc32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/endian/LittleEndianReader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/Logger.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/Profiler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/common/ProductVersion.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

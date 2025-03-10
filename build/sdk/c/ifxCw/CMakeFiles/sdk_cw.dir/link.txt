@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sdk_cw.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe cr CMakeFiles\sdk_cw.dir/objects.a @CMakeFiles\sdk_cw.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -Wall -Wextra -Wno-unused-parameter -g -g -Wl,--fatal-warnings -shared -o ..\..\..\bin\sdk_cw.dll -Wl,--out-implib,libsdk_cw.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\sdk_cw.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\sdk_cw.dir\linklibs.rsp

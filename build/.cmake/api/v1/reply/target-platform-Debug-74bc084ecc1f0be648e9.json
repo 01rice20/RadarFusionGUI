@@ -1,0 +1,1566 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/BoardAny.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/BoardDescriptor.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/BoardInstance.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/BoardManager.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/NamedMemory.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/Memory.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/RegisterGenerator.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeControl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeData.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocol.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolI2c.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolGpio.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolSpi.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolMemory.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolFlash.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolData.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeWrapperBase.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/bridge/VendorCommandsImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernet.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetControl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetData.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetTcp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetUdp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/EnumeratorEthernet.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetTcp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetUdp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardDescriptorEthernet.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketTcp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketUdp.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/fpga/BridgeFpgaIrpli.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/DebugFrame.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/ErrorFrame.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/Frame.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameBase.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameForwarder.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/FramePool.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameQueue.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameHelper.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/macro/BoardInstanceMacro.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/macro/BridgeMacro.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/serial/SerialPort.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/serial/BridgeSerial.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/serial/BoardSerial.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/uvc/BoardUvc.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionCypress.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtek.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekFlash.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekI2c.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/boards/Board.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardGeneric.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardRemote.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/serial/SerialPortImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/serial/EnumeratorSerialImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/ethernet/SocketImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/ethernet/SocketTcpImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/ethernet/SocketUdpImpl.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/serial/SerialPortImplAsync.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/video/EnumeratorDirectShow.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/video/BridgeDirectShow.cpp.obj"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeFiles/platform.dir/impl/Windows/video/Win32Utils.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"strata_include",
+			"target_compile_definitions",
+			"target_link_libraries_helper",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"external/strata/library/platform/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"external/strata/cmake/Compiler.cmake",
+			"external/strata/Strata.cmake",
+			"external/strata/library/CMakeLists.txt",
+			"external/strata/cmake/Helper.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 239,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 5
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 67,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 111,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 11,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 12,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 107,
+				"parent" : 13
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 18,
+					"define" : "STRATA_EXPORT"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "TARGET_PLATFORM_WINDOWS"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "pugixml-static::@16e3eca51e18ac322646"
+		}
+	],
+	"id" : "platform::@a53253ec8d109bba1f48",
+	"name" : "platform",
+	"paths" : 
+	{
+		"build" : "external/strata/library/platform",
+		"source" : "external/strata/library/platform"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/BoardAny.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/BoardDescriptor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/BoardInstance.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/BoardListProtocol.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/BoardManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/NamedMemory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/Memory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/RegisterGenerator.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeControl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocol.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolI2c.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolGpio.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolSpi.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolMemory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolFlash.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/BridgeWrapperBase.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/bridge/VendorCommandsImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BoardEthernetTcp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BoardEthernetUdp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BoardDescriptorEthernet.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernet.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetControl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetTcp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetUdp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/EnumeratorEthernet.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/SocketTcp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/ethernet/SocketUdp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EAlreadyOpened.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EBridgeData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EConnection.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EInUse.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EMemory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EProtocol.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EProtocolFunction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/exception/EUvcProperty.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/fpga/BridgeFpgaIrpli.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/DebugFrame.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/ErrorFrame.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/Frame.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FrameBase.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FrameForwarder.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FrameListenerCaller.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FramePool.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FrameQueue.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/frames/FrameHelper.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IBoard.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IBridge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IBridgeControl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IBridgeData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IVendorCommands.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IEnumerator.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IFrame.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IFrameListener.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IFramePool.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/IFrameQueue.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/IData.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/IGpio.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/IMemory.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/II2c.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/ISpi.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/access/IFlash.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/link/ISerialPort.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/link/ISocket.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/link/IMulticoreDebugger.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/interfaces/link/IUvcExtension.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/macro/BoardInstanceMacro.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/macro/BridgeMacro.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/serial/BoardSerial.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/serial/BridgeSerial.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/serial/SerialPort.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/templates/boardFactoryFunction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/templates/enumerateFunction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/templates/identifyBoardFunction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/templates/searchBoardFunction.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/BoardUvc.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionList.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionCypress.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtek.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtekFlash.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtekI2c.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/boards/Board.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/boards/BoardGeneric.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/boards/BoardRemote.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketTcpImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketUdpImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/serial/EnumeratorSerialImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/serial/SerialPortImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/serial/SerialPortImplBridge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/uvc/BridgeUvcImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/uvc/EnumeratorUvcImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/serial/SerialPortImplAsync.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/EDirectShow.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/BridgeDirectShow.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/BridgeDirectShowDefinitions.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/EnumeratorDirectShow.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/EnumeratorDirectShowDefinitions.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/Win32Utils.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/SampleGrabberInterface.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/ComDefines.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/strata/library/platform/impl/Windows/video/VidCap.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/BoardAny.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/BoardDescriptor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/BoardInstance.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/BoardManager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/NamedMemory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/Memory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/RegisterGenerator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeControl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeData.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocol.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolI2c.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolGpio.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolSpi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolMemory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolFlash.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeProtocolData.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/BridgeWrapperBase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/bridge/VendorCommandsImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernet.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetControl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetData.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetTcp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BridgeEthernetUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/EnumeratorEthernet.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BoardEthernetTcp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BoardEthernetUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/BoardDescriptorEthernet.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/SocketTcp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/ethernet/SocketUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/fpga/BridgeFpgaIrpli.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/DebugFrame.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/ErrorFrame.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/Frame.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/FrameBase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/FrameForwarder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/FramePool.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/FrameQueue.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/frames/FrameHelper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/macro/BoardInstanceMacro.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/macro/BridgeMacro.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/serial/SerialPort.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/serial/BridgeSerial.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/serial/BoardSerial.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/uvc/BoardUvc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionCypress.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtek.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtekFlash.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/uvc/VendorExtensionRealtekI2c.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/boards/Board.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/boards/BoardGeneric.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/boards/BoardRemote.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/serial/SerialPortImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/serial/EnumeratorSerialImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketTcpImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/ethernet/SocketUdpImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/serial/SerialPortImplAsync.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/video/EnumeratorDirectShow.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/video/BridgeDirectShow.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/platform/impl/Windows/video/Win32Utils.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

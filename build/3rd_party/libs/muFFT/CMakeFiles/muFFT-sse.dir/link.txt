@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc muFFT-sse.a CMakeFiles/muFFT-sse.dir/x86/kernel.sse.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe muFFT-sse.a

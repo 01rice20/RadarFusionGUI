@@ -1,0 +1,36 @@
+[18:34:19.266]-INF-Framework:116: Radar Fusion GUI v3.5.4
+[18:34:19.266]-DBG-Framework:126: Loaded plugin: "Radar"
+[18:34:19.267]-INF-PlatformDetails:44: Windows 10.0.22631
+[18:34:19.267]-INF-PlatformDetails:52: Total memory: 16 GB
+[18:34:19.267]-INF-PlatformDetails:57: Screen, size: QSize(1920, 1080) pixelRatio: 1 refreshRate: 60.0035
+[18:34:19.272]-INF-DeviceManager:122: Registering device: "Dummy BGT60TR13C"
+[18:34:19.272]-INF-DeviceManager:122: Registering device: "Dummy BGT60ATR24C"
+[18:34:19.272]-INF-DeviceManager:122: Registering device: "Dummy BGT60UTR11AIP"
+[18:34:19.272]-INF-DeviceManager:122: Registering device: "Dummy BGT60UTR13D"
+[18:34:20.965]-DBG-main:83: Injected module: Fusion
+[18:34:21.048]-WRN-:0: QQmlExpression: Expression qrc:/Radar/controls/RadarRecordingSettings.qml:31:5 depends on non-NOTIFYable properties:
+[18:34:21.048]-WRN-:0:     RadarRecordingUserSettings::supportsTxtFile
+[18:34:21.058]-DBG-RadarModule:183: Injected Radar submodule: ATR22S
+[18:34:21.067]-WRN-:0: QQmlExpression: Expression qrc:/Radar/controls/RadarRecordingSettings.qml:31:5 depends on non-NOTIFYable properties:
+[18:34:21.067]-WRN-:0:     RadarRecordingUserSettings::supportsTxtFile
+[18:34:21.076]-DBG-RadarModule:183: Injected Radar submodule: LTR11S
+[18:34:21.088]-DBG-RadarModule:183: Injected Radar submodule: FMCWSingleShapeMode
+[18:34:21.098]-DBG-RadarModule:183: Injected Radar submodule: RadarCW
+[18:34:21.134]-DBG-RadarModule:183: Injected Radar submodule: DummyMode
+[18:34:21.141]-DBG-RadarModule:183: Injected Radar submodule: ExpertMode
+[18:34:21.200]-DBG-main:83: Injected module: Radar
+[18:34:21.523]-INF-Framework:195: Renderer: "Intel(R) UHD Graphics"
+[18:34:21.523]-INF-Framework:196: Vendor: "Intel"
+[18:34:21.523]-INF-Framework:197: Driver version: "4.6.0 - Build 31.0.101.4502"
+[18:34:21.573]-INF-PlatformDetails:69: Graphics API: 4
+[18:34:34.165]-INF-DeviceManager:122: Registering device: "BGT60LTR11AIP"
+[18:34:37.574]-INF-DeviceManager:47: Connect to device "BGT60LTR11AIP"
+[18:34:38.289]-INF-LTR11SDataProcessing:361: Acquisition started
+[18:34:51.350]-INF-LTR11SDataProcessing:371: Acquisition stopped
+[18:34:51.680]-INF-LTR11SDataProcessing:361: Acquisition started
+[18:35:34.164]-WRN-:0: QWindowsWindow::setGeometry: Unable to set geometry 445x454+748+298 (frame: 463x501+739+260) on RadarRecordingSettingsWindow_QMLTYPE_149/"ltr11RecordingOptionsWindow" on "\\.\DISPLAY1". Resulting geometry: 446x454+748+298 (frame: 464x501+739+260) margins: 9, 38, 9, 9 minimum size: 446x124 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=464, y=171)))
+[18:35:45.432]-WRN-:0: QWindowsWindow::setGeometry: Unable to set geometry 424x473+748+298 (frame: 442x520+739+260) on RadarRecordingSettingsWindow_QMLTYPE_149/"ltr11RecordingOptionsWindow" on "\\.\DISPLAY1". Resulting geometry: 446x473+748+298 (frame: 464x520+739+260) margins: 9, 38, 9, 9 minimum size: 446x124 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=464, y=171)))
+[18:37:24.401]-INF-CoreView:35: Message for user: "Recording has finished" ""
+[18:43:09.912]-INF-LTR11SDataProcessing:371: Acquisition stopped
+[18:43:09.937]-INF-DeviceManager:147: Disconnect from device
+[18:43:09.938]-INF-CoreView:35: Message for user: "Too many timeouts occurred. Please reconnect device again." "device did not acquire a complete time domain data frame within the expected time (IFX_ERROR_TIMEOUT)"

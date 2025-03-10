@@ -1,0 +1,29 @@
+{
+    "application": "None",
+    "device_config": {
+        "if_gain_dB": 50,
+        "mode": "PULSE_MODE",
+        "num_samples": 256,
+        "pulse_repetition_time_us": 500,
+        "pulse_width_us": 5,
+        "rf_frequency_Hz": 61044000000,
+        "tx_power_level": 7
+    },
+    "device_info": {
+        "baseboard_name": "Radar Baseboard MCU7 (MCU B)",
+        "device_name": "BGT60LTR11AIP",
+        "firmware_version": "2.6.0"
+    },
+    "integrated_motion_sensing_config": {
+        "aprt_factor": 1,
+        "hold_time_s": 1,
+        "threshold": 80
+    },
+    "json_version": {
+        "type": "BGT60LTR11AIP_Extended",
+        "version": "3.3.0"
+    },
+    "recording": {
+        "frame_count": 156
+    }
+}

@@ -1,0 +1,1 @@
+ ../../../external/strata/library/libstrata_shared-d.dll.a -lm -lws2_32 -liphlpapi -lstrmiids ../../../external/strata/contrib/pugixml/pugixml-d.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

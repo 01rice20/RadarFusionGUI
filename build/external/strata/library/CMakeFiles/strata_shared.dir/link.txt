@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\strata_shared.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe cr CMakeFiles\strata_shared.dir/objects.a @CMakeFiles\strata_shared.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Wl,--fatal-warnings -shared -o ..\..\..\bin\strata_shared-d.dll -Wl,--out-implib,libstrata_shared-d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\strata_shared.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\strata_shared.dir\linklibs.rsp

@@ -1,0 +1,130 @@
+FAQ / Troubleshooting
+=====================
+
+In this section we try to cover frequent problems. If you had an issue and found already a solution on your own, please
+add it here.
+
+
+**Why is the** ``ifxdaq`` **command not found if I call it from commandline?**
+
+- Most probably the Python environment is not added to your PATH variable correctly.
+- Check if ``ifxdaq`` is correctly installed with ``python -m pip list``. There should be some entry for ``ifxdaq``. If
+  there is no entry, ``ifxdaq`` is not properly installed. Please have a look into the installation instructions.
+- Try to run the commands explicitly with ``python -m ifxdaq``.
+
+----
+
+**Why is my Infineon Avian (BGT60TRxx) radar device not detected?**
+
+- Make sure your radar board has the latest firmware (``>= 2.6.0``).
+- If the board is connected, a green LED should blink in idle mode.
+- Check with the ``Radar Fusion GUI`` (from Infineon Toolbox) or ``Sensing GUI`` if your device is visible.
+- The radar boards have a low power consumption, but with long USB cables there could be some powered USB hub required.
+- USB supports at maximum 5 meters without additional power supply, or 25 meters with serially chained USB hubs.
+
+.. note::
+    On UNIX: If your radar device is connected and ready (blinking LED), but not found by
+    ``ifxdaq``, make sure that you can access the device file ``/dev/ttyAMCx`` (``x`` is a
+    number specific to you computer). Additionally, make sure that your current user is in the
+    group ``dialout``. You can check the groups of your current user using::
+
+        $ groups
+
+    To add your user to the group dialout, run::
+
+        $ sudo usermod -a -G dialout username
+
+    and replace ``username`` by your actual user name. Afterwards a restart might be required.
+
+----
+
+**Where do I get the latest firmware for my Infineon radar?**
+
+- The firmware is part of the Radar Development Kit.
+
+  - Direct download - *Infineon internal only*: `FW archive
+    <https://sec-ishare.infineon.com/sites/Radar_SW_Releases/Shared%20Documents/Hatvan_FW>`_
+  - via Installer:
+
+    - Download & install the `Radar Development Kit
+      <https://softwaretools.infineon.com/tools/com.ifx.tb.tool.ifxradarsdk>`_.
+    - Download the Software package (Packages/Software) from the Radar Development Kit application.
+
+- Extract the downloaded archive & follow the instructions in ``Firmware/Readme.pdf`` to flash your board.
+
+----
+
+**Why is my Intel RealSense not detected?**
+
+- The Intel RealSense has a high power consumption. It might not work, if it is connected with long USB cables and/or
+  unpowered USB hubs.
+- Check with the `Intel RealSense Viewer <https://www.intelrealsense.com/sdk-2/>`_ if the device is visible. If it is
+  not found here, ``ifxdaq`` will also not find it.
+- Make sure to connect your Intel RealSense to a high speed USB port (USB 3.0 or higher; currently 3.2 works best).
+- Update the firmware to version 05.13.00.50. This can be done with the `Intel RealSense Viewer
+  <https://www.intelrealsense.com/sdk-2/>`_
+- Use a USB hub with additional power supply.
+- USB supports at maximum 5 meters without additional power supply, or 25 meters with serially chained USB hubs.
+
+----
+
+**Why is the connection to my devices instable (e.g. frame drops or reconnects)?**
+
+- Probably, your USB port delivers not enough power to your devices.
+- Use a USB hub with additional power supply.
+
+----
+
+**RaspberryPI - Why do I get a** ``libavfilter.so.7`` **error?**
+
+- Raised exception:
+
+  ``libavfilter.so.7: cannot open shared object file: No such file or directory``
+
+- We use ``PyAv`` that is based on ``ffmpeg`` to store ``.mp4`` files.
+- Make sure ``ffmpeg`` is installed: ``sudo apt install ffmpeg``
+
+----
+
+**RaspberryPI - Why is my video recording lagging?**
+
+- We use the ``H.264`` codec to compress videos on the fly into ``.mp4`` files.
+- Software-based video encoding is a compute intensive task. Basically, this can be solved in two ways: - Powerful CPUs,
+  which are in your laptops, but not on the RaspberryPi. - Highly optimized encoders, which are quite complicated to
+  setup (-> `Tutorial on building encoders <https://www.raspberrypi.org/forums/viewtopic.php?t=199775>`_).
+- Solution: Use a low frame-rate **and** (/ or) low resolution on your RaspberryPi, e.g. VGA @ 15fps.
+
+----
+
+**Why do I get** ``OSError: [Errno 28] No space left on device`` **on the HPC (Gpu-Farm), when I try to label my
+recordings?**
+
+- On the HPC, every user's home directory (``~`` / ``/ifxhome/username``) has a 1GB limitation.
+- By default, we cache our model weights inside ``~/.cache/ifxdaq``. If you download a model and exceed the 1GB
+  limitation, the exception will be raised.
+- Solution: Specify an alternative location for the ``ifxdaq`` cache directory: - ``setenv IFXDAQ_CACHE
+  /your/desired/location`` - for the current shell and all subshells. - ``~/.cshrc`` - add the command above to your
+  personal login profile to set it permanently.
+
+----
+
+**Why do I get** ``ifxdaq.errors.SensorNotFoundError: Found no radar device with UUID
+ffffffffffffffffffffffffffffffff.`` **?**
+
+- This means there is no valid UUID stored on the internal EEPROM.
+- Solution: - Download and extract the *UUID tool* (Available within the RDK). - Connect the sensor. - Open a CMD or
+  Powershell. - Run the tool:
+
+    - ``uuid_tool_strata.exe -r`` -> Read the current UUID (fff...)
+    - ``uuid_tool_strata.exe -g`` -> Generate a new random UUID
+    - ``uuid_tool_strata.exe -h`` -> Help
+
+----
+
+**Why do I get** ``ifxdaq.errors.SensorNotFoundError: Found no radar device with UUID
+00000000-0000-0000-0000-000000000000.`` **?**
+
+- This error is an indicator for a broken EEPROM.
+- Since this is a hardware issue, there is no solution from our side, except the suggestion to get a new board.
+- Disclaimer: In future releases, the dependency for a working EEPROM will be dropped and you will be able to use this
+  board again.

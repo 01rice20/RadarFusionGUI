@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\BGT24ATR22_raw_data_atr22.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe cr CMakeFiles\BGT24ATR22_raw_data_atr22.dir/objects.a @CMakeFiles\BGT24ATR22_raw_data_atr22.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -Wall -Wextra -Wno-unused-parameter -g -g -Wl,--fatal-warnings -Wl,--whole-archive CMakeFiles\BGT24ATR22_raw_data_atr22.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\..\bin\BGT24ATR22_raw_data_atr22.exe -Wl,--out-implib,libBGT24ATR22_raw_data_atr22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BGT24ATR22_raw_data_atr22.dir\linklibs.rsp

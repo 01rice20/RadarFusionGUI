@@ -1,0 +1,689 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/sdk_base.dll"
+		},
+		{
+			"path" : "sdk/c/ifxBase/libsdk_base.dll.a"
+		},
+		{
+			"path" : "bin/sdk_base.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"include",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"sdk/c/ifxBase/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"sdk/c/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "IFX_LOG_SEVERITY_INFO=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_IMPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_BUILD=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MINOR=3"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_PATCH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "radar_sdk_EXPORTS=1"
+				},
+				{
+					"define" : "sdk_base_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -g -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "IFX_LOG_SEVERITY_INFO=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SDK_VERSION=\"3.5.0\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SDK_VERSION_FULL=\"3.5.0+\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_IMPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_BUILD=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_MINOR=3"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "STRATA_VERSION_PATCH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "radar_sdk_EXPORTS=1"
+				},
+				{
+					"define" : "sdk_base_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				4,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "strata_shared::@af46ec4be38e64d587b3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "pugixml-static::@16e3eca51e18ac322646"
+		}
+	],
+	"id" : "sdk_base::@32d75b861c5914c2942d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--fatal-warnings",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\..\\external\\strata\\library\\libstrata_shared-d.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-liphlpapi",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstrmiids",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\external\\strata\\contrib\\pugixml\\pugixml-d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sdk_base",
+	"nameOnDisk" : "sdk_base.dll",
+	"paths" : 
+	{
+		"build" : "sdk/c/ifxBase",
+		"source" : "sdk/c/ifxBase"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Complex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Cube.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/LA.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "sdk/c/ifxBase/List.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Matrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "sdk/c/ifxBase/Mda.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Uuid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Vector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxBase/Version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Complex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Cube.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Defines.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Exception.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/FunctionWrapper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Helper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/LA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/List.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Math.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Matrix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Mda.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Mem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Uuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/Clamping.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/GuardedHandle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/List.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/Macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/Mda.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/NonCopyable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/Simd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/internal/Util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxBase/Utils.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

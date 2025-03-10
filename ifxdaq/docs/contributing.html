@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To Contribute &mdash; ifxdaq  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Tutorials" href="tutorials.html" />
+    <link rel="prev" title="FAQ / Troubleshooting" href="troubleshooting.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ifxdaq
+              <img src="_static/ifx_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">ifxdaq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="daqkit.html">DaqKit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recorder.html">Recorder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="label.html">Labeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">FAQ / Troubleshooting</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How To Contribute</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#local-development-environment">Local Development Environment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clone-repository">Clone repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#install-configure-toolchain">Install &amp; configure toolchain</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#style-guide">Style guide</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-style">Code style</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#typing">Typing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#testing">Testing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#git">git</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#commit-message-conventions">Commit message conventions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#branching-conventions">Branching conventions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tools">Tools</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pre-commit">pre-commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation-sphinx">Documentation - sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#formatting-black">Formatting - black</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#static-code-analysis-mypy-pylint-ruff">Static code analysis - mypy, pylint, ruff</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mypy">mypy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pylint">pylint</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ruff">ruff</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#testing-pytest-coverage">Testing - pytest &amp; coverage</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#release">Release</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="file_format.html">File format reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ifxdaq</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">How To Contribute</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/contributing.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-contribute">
+<h1>How To Contribute<a class="headerlink" href="#how-to-contribute" title="Permalink to this heading"></a></h1>
+<p>First off, thank you for considering contributing to <code class="docutils literal notranslate"><span class="pre">ifxdaq</span></code>!</p>
+<p>This document intends to make contribution more accessible by codifying tribal
+knowledge and expectations. Don’t be afraid to open half-finished PRs, and ask
+questions if something is unclear!</p>
+<section id="local-development-environment">
+<h2>Local Development Environment<a class="headerlink" href="#local-development-environment" title="Permalink to this heading"></a></h2>
+<section id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this heading"></a></h3>
+<p>We use <a class="reference external" href="https://www.python.org/">Python</a> to develop our package. The main development version is
+<strong>Python3.11</strong> (supported versions: 3.8-3.11). Please install this version according
+to your OS.</p>
+<blockquote>
+<div><p><strong>Hint</strong></p>
+<p><a class="reference external" href="https://github.com/pyenv/pyenv">pyenv</a> (installable with <a class="reference external" href="https://scoop.sh/">scoop</a> under Windows) is an excellent tool
+to manage different Python versions on your machine.</p>
+</div></blockquote>
+</section>
+<section id="clone-repository">
+<h3>Clone repository<a class="headerlink" href="#clone-repository" title="Permalink to this heading"></a></h3>
+<p>First, you need a copy of the code. The code base is hosted in a Gitlab
+repository. We use <a class="reference external" href="https://git-scm.com/"><code class="docutils literal notranslate"><span class="pre">git</span></code></a> to version control our code. You can clone the
+repository with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git@gitlab.intra.infineon.com:pss/sensys/algo/ifxdaq.git
+</pre></div>
+</div>
+</section>
+<section id="install-configure-toolchain">
+<h3>Install &amp; configure toolchain<a class="headerlink" href="#install-configure-toolchain" title="Permalink to this heading"></a></h3>
+<p>Afterwards run the <code class="docutils literal notranslate"><span class="pre">setup.sh</span></code> script inside the repository, which will automatically:</p>
+<ol class="arabic simple">
+<li><p>Configure git.</p></li>
+<li><p>Check that Python3.11 is available.</p></li>
+<li><p>Create a local virtual environment.</p></li>
+<li><p>Install all required Python packages.</p></li>
+<li><p>Install <code class="docutils literal notranslate"><span class="pre">pre-commit</span></code> hooks.</p></li>
+</ol>
+<p>On Windows run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">bash</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;bash setup.sh; read -p &#39;Press [Enter] to close this window...&#39;&quot;</span>
+</pre></div>
+</div>
+<p>On Unix run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bash</span> <span class="n">setup</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p><strong>Every time you start a new console and want to use the virtual environment,
+you have to activate it.</strong></p>
+<p><a class="reference external" href="https://code.visualstudio.com/docs/python/environments">VSCode - virtual environment integration</a></p>
+<p><a class="reference external" href="https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html">PyCharm - virtual environment integration</a></p>
+</section>
+</section>
+<section id="style-guide">
+<h2>Style guide<a class="headerlink" href="#style-guide" title="Permalink to this heading"></a></h2>
+<p>A good orientation for a style guide is the
+<a class="reference external" href="https://google.github.io/styleguide/pyguide.html">Google Style Guide</a>.
+If you stick roughly to those guidelines, your code style is probably already
+quite nice!</p>
+<p>Here we want to point out a few important topics for this project that are already
+contained in the same manner or very similar in Google’s style guide.</p>
+<section id="code-style">
+<h3>Code style<a class="headerlink" href="#code-style" title="Permalink to this heading"></a></h3>
+<p>We use <a class="reference external" href="https://black.readthedocs.io/en/stable/"><code class="docutils literal notranslate"><span class="pre">black</span></code></a> and <a class="reference external" href="https://github.com/astral-sh/ruff"><code class="docutils literal notranslate"><span class="pre">ruff</span></code></a> to format our code automatically,
+so there is no need to pay special attention to this topic. (Note: Integrating those
+tools into your IDE might be really helpful.)</p>
+</section>
+<section id="typing">
+<h3>Typing<a class="headerlink" href="#typing" title="Permalink to this heading"></a></h3>
+<p>Type annotations improve the readability and maintainability of your code. The
+type checker will convert many runtime errors to build-time errors. This helps
+to avoid obvious errors and to create cleaner APIs for our functions. You can
+find a nice cheat sheet
+<a class="reference external" href="https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html">here</a>.</p>
+</section>
+<section id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading"></a></h3>
+<p>Contributed code should be documented already during creation. This simplifies
+cooperation between multiple developers and also re-use in other projects. We
+follow the Google Docstring style to document our code inline.
+<a class="reference external" href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">Here</a>
+you find an extensive example of this style.</p>
+<p>You can also add explicit documentation under <code class="docutils literal notranslate"><span class="pre">docs</span></code>. Just have a look into
+this folder to find examples how this is done.</p>
+</section>
+<section id="testing">
+<h3>Testing<a class="headerlink" href="#testing" title="Permalink to this heading"></a></h3>
+<p>Add tests for your code. This will ensure high quality and simplifies the
+development, when the complexity of the project increases. Tests are added under
+<code class="docutils literal notranslate"><span class="pre">tests</span></code>. Have a look into already existing tests to get an impression, how
+this can be done.</p>
+</section>
+</section>
+<section id="git">
+<h2>git<a class="headerlink" href="#git" title="Permalink to this heading"></a></h2>
+<p><strong>Effective communication makes software scale.</strong> Git is our medium and a very
+effective one to communicate our changes. Your changes should tell a story that’s
+easy to follow, so that the code can easily be picked up by others by a mere
+examination of its commit and list history. There needs to be structure to the
+changes that are sent, so that they can be easily reviewed, and held to high standards.</p>
+<section id="commit-message-conventions">
+<h3>Commit message conventions<a class="headerlink" href="#commit-message-conventions" title="Permalink to this heading"></a></h3>
+<p><strong>Commit message format</strong>
+Each commit message consists of a <strong>header</strong>, a <strong>body</strong>, and a <strong>footer</strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">header</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">BLANK</span> <span class="n">LINE</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p><strong>Commit message header format</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;type&gt;: &lt;short summary&gt;
+   |         |
+   |         └─ Imperative, present tense. Not capitalized.
+   |            No period at the end. Less than 50 characters.
+   |
+   └─ Commit Type: ci|docs|feat|fix|refactor|test
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>ci: Changes to our CI configuration files and scripts (example scopes: Gitlab)</p></li>
+<li><p>docs: Documentation only changes</p></li>
+<li><p>feat: A new feature</p></li>
+<li><p>fix: A bug fix</p></li>
+<li><p>refactor: A code change that neither fixes a bug nor adds a feature</p></li>
+<li><p>test: Adding missing tests or correcting existing tests</p></li>
+</ul>
+<p><strong>Commit message body format</strong></p>
+<ul class="simple">
+<li><p>Use the imperative, present tense (e.g. ‘fix’ not ‘fixed’, ‘fixes’).</p></li>
+<li><p>Wrap at 72 characters.</p></li>
+<li><p>Use the body to explain what and why vs. how. Explain the motivation for the change.</p></li>
+<li><p>You can include a comparison of the previous behavior with the new behavior in order to illustrate
+the impact of the change.</p></li>
+<li><p>You can reference issues with <code class="docutils literal notranslate"><span class="pre">#SENSYS-&lt;issue</span> <span class="pre">number&gt;</span></code>.</p></li>
+</ul>
+<p><strong>Commit message template</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">.gitmessage</span></code> will pre-populate your commit message with an empty body, which shows you how a
+commit message should look like. The <code class="docutils literal notranslate"><span class="pre">.gitmessage</span></code> template will be automatically installed with
+the <code class="docutils literal notranslate"><span class="pre">setup.sh</span></code> script.</p>
+</section>
+<section id="branching-conventions">
+<h3>Branching conventions<a class="headerlink" href="#branching-conventions" title="Permalink to this heading"></a></h3>
+<p>We use the <strong>git-flow</strong> branching model. Please find a detailed description of the branching model
+in
+<a class="reference external" href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Bitbucket Tutorial</a>
+and <a class="reference external" href="https://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen’s Blogpost</a>.</p>
+<p><strong>Branch name format</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;type&gt;/SENSYS-&lt;issue-number&gt;-&lt;short description&gt;
+   |                |               |
+   |                |               |
+   |                |               └─ Short, crisp description. Hyphen as separator between words.
+   |                |
+   |                └─ Issue number referencing the issue.
+   |
+   └─ Commit Type: bugfix|feature|hotfix|release
+</pre></div>
+</div>
+</section>
+</section>
+<section id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this heading"></a></h2>
+<p>All used tools are open-source and have a pretty good online documentation. So,
+if you get stuck at some point, there is a high chance that somebody else had
+already the same problem and you find a solution in the documentation or on
+<a class="reference external" href="https://stackoverflow.com/">stackoverflow</a> :)</p>
+<p>All tools can be executed locally &amp; are also executed automatically on every push
+by our CI infrastructure.
+We created shortcuts to use the tools with <a class="reference external" href="http://www.pyinvoke.org/"><code class="docutils literal notranslate"><span class="pre">invoke</span></code></a> and to automate our development
+infrastructure. <a class="reference external" href="http://www.pyinvoke.org/"><code class="docutils literal notranslate"><span class="pre">invoke</span></code></a> is a Python task execution tool &amp; library. <a class="reference external" href="http://www.pyinvoke.org/"><code class="docutils literal notranslate"><span class="pre">invoke</span></code></a> provides
+shortcuts with default parameters that are adequate for most situations, so you
+don’t have to think a lot about command line arguments. You can list all
+available shortcuts with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># List available options:</span>
+inv<span class="w"> </span>-l
+
+<span class="c1"># Run a specific command, e.g. build documentation</span>
+inv<span class="w"> </span>docs
+</pre></div>
+</div>
+<p>The listed options will be explained in the following sections.</p>
+<section id="pre-commit">
+<h3>pre-commit<a class="headerlink" href="#pre-commit" title="Permalink to this heading"></a></h3>
+<p>We use <a class="reference external" href="https://pre-commit.com/"><code class="docutils literal notranslate"><span class="pre">pre-commit</span></code></a> to check commits before they are published.
+The available hooks will check your files for correct formatting, syntax errors and more.
+<a class="reference external" href="https://pre-commit.com/"><code class="docutils literal notranslate"><span class="pre">pre-commit</span></code></a> and its hooks are automatically installed, during the setup
+of the development environment.</p>
+</section>
+<section id="documentation-sphinx">
+<h3>Documentation - sphinx<a class="headerlink" href="#documentation-sphinx" title="Permalink to this heading"></a></h3>
+<p>The documentation generation is built on <a class="reference external" href="https://www.sphinx-doc.org/en/master/"><code class="docutils literal notranslate"><span class="pre">sphinx</span></code></a>. If you want to
+build the documentation locally, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>inv<span class="w"> </span>docs
+</pre></div>
+</div>
+<p>The built documentation can then be found in <code class="docutils literal notranslate"><span class="pre">build/docs</span></code>.
+The documentation of released version can be accessed at
+<a class="reference external" href="https://artifactory.intra.infineon.com/artifactory/gen-pmm-sensys-local/ifxdaq/docs/">Artifactory</a>
+(Version &gt; 3.2.4).</p>
+</section>
+<section id="formatting-black">
+<h3>Formatting - black<a class="headerlink" href="#formatting-black" title="Permalink to this heading"></a></h3>
+<p>Our code is automatically formatted with <a class="reference external" href="https://black.readthedocs.io/en/stable/"><code class="docutils literal notranslate"><span class="pre">black</span></code></a>. There is no need
+to run the formatters manually, since they will be executed by our pre-commit hooks. If you want
+to do it nevertheless, here are the commands.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Run black (-c to check the files only)</span>
+inv<span class="w"> </span>black
+</pre></div>
+</div>
+</section>
+<section id="static-code-analysis-mypy-pylint-ruff">
+<h3>Static code analysis - mypy, pylint, ruff<a class="headerlink" href="#static-code-analysis-mypy-pylint-ruff" title="Permalink to this heading"></a></h3>
+<p>We perform static code analysis to detect simple errors, force high quality code and ensure some
+common code style. You can invoke the complete static analysis with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>inv<span class="w"> </span>static
+</pre></div>
+</div>
+<p>In the following subsections, we will explain the tools used in the static code analysis and show
+how to invoke them separately.</p>
+<section id="mypy">
+<h4>mypy<a class="headerlink" href="#mypy" title="Permalink to this heading"></a></h4>
+<p>You can use <a class="reference external" href="http://mypy-lang.org/"><code class="docutils literal notranslate"><span class="pre">mypy</span></code></a> to perform a static type checking of your code.
+This supports you to find incompatible function calls and function arguments
+without the need to actually run the code:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>inv<span class="w"> </span>mypy
+</pre></div>
+</div>
+</section>
+<section id="pylint">
+<h4>pylint<a class="headerlink" href="#pylint" title="Permalink to this heading"></a></h4>
+<p><a class="reference external" href="https://www.pylint.org/"><code class="docutils literal notranslate"><span class="pre">pylint</span></code></a> is used to check your code for programming errors,
+helps to enforce a coding standard, sniffs for code
+smells and offers simple refactoring suggestions. It is invoked by:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>inv<span class="w"> </span>pylint
+</pre></div>
+</div>
+</section>
+<section id="ruff">
+<h4>ruff<a class="headerlink" href="#ruff" title="Permalink to this heading"></a></h4>
+<p><a class="reference external" href="https://github.com/astral-sh/ruff"><code class="docutils literal notranslate"><span class="pre">ruff</span></code></a> is an extremely fast Python linter to check your Python code.
+You can perform the check with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>inv<span class="w"> </span>ruff
+</pre></div>
+</div>
+</section>
+</section>
+<section id="testing-pytest-coverage">
+<h3>Testing - pytest &amp; coverage<a class="headerlink" href="#testing-pytest-coverage" title="Permalink to this heading"></a></h3>
+<p>We use <a class="reference external" href="https://docs.pytest.org/en/latest/"><code class="docutils literal notranslate"><span class="pre">pytest</span></code></a> &amp; <a class="reference external" href="https://coverage.readthedocs.io/"><code class="docutils literal notranslate"><span class="pre">coverage</span></code></a> for running the test
+suite. <a class="reference external" href="https://docs.pytest.org/en/latest/"><code class="docutils literal notranslate"><span class="pre">pytest</span></code></a> is used for the actual testing, while we use
+<a class="reference external" href="https://coverage.readthedocs.io/"><code class="docutils literal notranslate"><span class="pre">coverage</span></code></a> to generate reports for our test coverage. Here is a
+short overview of important commands to run tests (find more information and
+more examples in the <a class="reference external" href="https://docs.pytest.org/en/latest/"><code class="docutils literal notranslate"><span class="pre">pytest</span></code></a> documentation):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Run all tests</span>
+pytest<span class="w"> </span>tests
+<span class="c1"># Run only a specific test</span>
+pytest<span class="w"> </span>tests<span class="w"> </span>-k<span class="w"> </span>name_of_the_test
+<span class="c1"># Run only a subset of tests, located in a specific folder</span>
+pytest<span class="w"> </span>tests/test_preprocessing
+</pre></div>
+</div>
+<p>If you simply want to run all the tests &amp; create a coverage report run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># All tests</span>
+inv<span class="w"> </span><span class="nb">test</span><span class="w"> </span>-r
+<span class="c1"># Only unittests</span>
+inv<span class="w"> </span>unittest<span class="w"> </span>-r
+<span class="c1"># Only system tests</span>
+inv<span class="w"> </span>systest<span class="w"> </span>-r
+</pre></div>
+</div>
+<p>Test and coverage reports will be available under <code class="docutils literal notranslate"><span class="pre">build/test</span></code>, <code class="docutils literal notranslate"><span class="pre">build/unit</span></code> and
+<code class="docutils literal notranslate"><span class="pre">build/system</span></code>.</p>
+</section>
+</section>
+<section id="release">
+<h2>Release<a class="headerlink" href="#release" title="Permalink to this heading"></a></h2>
+<p>In this section, we describe the steps that have to be performed to create a release:</p>
+<ol class="arabic simple" start="0">
+<li><p>Verify that all firmware versions in the documentation are up-to-date.</p></li>
+<li><p>Create a release branch. Naming convention: <code class="docutils literal notranslate"><span class="pre">release/&lt;VERSION&gt;</span></code>, e.g <code class="docutils literal notranslate"><span class="pre">release/1.2.3</span></code>.</p></li>
+<li><p>Update the changelog (<code class="docutils literal notranslate"><span class="pre">CHANGELOG.md</span></code>) and the versions of the batches in <code class="docutils literal notranslate"><span class="pre">README.md</span></code> &amp;
+<code class="docutils literal notranslate"><span class="pre">docs/index.rst</span></code>.</p></li>
+<li><p>Create a merge request from the release branch to <code class="docutils literal notranslate"><span class="pre">master</span></code>.</p></li>
+<li><p>After approvals, merge the pull request with a <strong>Merge commit</strong>.</p></li>
+<li><p>Verify that all build jobs on <code class="docutils literal notranslate"><span class="pre">master</span></code> pass (and optionally, but recommended, verify the
+package locally with connected sensors - a quick manual evaluation &amp; running the tests locally
+is enough).</p></li>
+<li><p>Tag the master branch with the version number, e.g. <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">tag</span> <span class="pre">v1.2.3</span> <span class="pre">-m</span> <span class="pre">&quot;Release</span> <span class="pre">1.2.3&quot;</span></code>, and
+push the tag, e.g <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">v1.2.3</span></code>. This triggers automatically the release &amp; the
+result will be published on
+<a class="reference external" href="https://artifactory.intra.infineon.com/artifactory/pypi-pmm-center-local/ifxdaq/">Artifactory</a>.</p></li>
+<li><p>Checkout the <code class="docutils literal notranslate"><span class="pre">develop</span></code> branch and rebase it onto <code class="docutils literal notranslate"><span class="pre">master</span></code>,
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span> <span class="pre">origin</span> <span class="pre">master</span> <span class="pre">--rebase</span></code>.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="troubleshooting.html" class="btn btn-neutral float-left" title="FAQ / Troubleshooting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tutorials.html" class="btn btn-neutral float-right" title="Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright restricted | Infineon Technologies. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

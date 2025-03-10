@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc BGT60ATR24C_common.a CMakeFiles/BGT60ATR24C_common.dir/common.c.obj CMakeFiles/BGT60ATR24C_common.dir/json.cpp.obj CMakeFiles/BGT60ATR24C_common.dir/time_formatter.c.obj CMakeFiles/BGT60ATR24C_common.dir/util.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe BGT60ATR24C_common.a

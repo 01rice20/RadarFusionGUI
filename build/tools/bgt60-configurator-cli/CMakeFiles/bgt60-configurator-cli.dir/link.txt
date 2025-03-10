@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\bgt60-configurator-cli.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe cr CMakeFiles\bgt60-configurator-cli.dir/objects.a @CMakeFiles\bgt60-configurator-cli.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -Wall -Wextra -Wno-unused-parameter -g -g -Wl,--fatal-warnings -Wl,--whole-archive CMakeFiles\bgt60-configurator-cli.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\bgt60-configurator-cli.exe -Wl,--out-implib,libbgt60-configurator-cli.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bgt60-configurator-cli.dir\linklibs.rsp

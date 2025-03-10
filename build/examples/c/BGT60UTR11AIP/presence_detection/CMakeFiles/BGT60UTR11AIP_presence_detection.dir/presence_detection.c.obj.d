@@ -1,0 +1,51 @@
+examples/c/BGT60UTR11AIP/presence_detection/CMakeFiles/BGT60UTR11AIP_presence_detection.dir/presence_detection.c.obj: \
+ C:\Users\HanaL\Documents\RadarFusionGUI\radar_sdk\examples\c\BGT60UTR11AIP\presence_detection\presence_detection.c \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/Avian.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceConfig.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Types.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/avian/DeviceFmcwAvianConfig.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadarDeviceCommon/RadarDeviceCommon.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceControl.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Cube.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Defines.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Matrix.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Mda.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Types.h \
+ C:/msys64/ucrt64/include/assert.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Vector.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Math.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcw.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Error.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Log.h \
+ C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/List.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcwTypes.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Mda.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/Metrics.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/MetricsFmcw.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadarPresenceSensing/PresenceSensing.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Matrix.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceConfig.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceControl.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/common.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/json.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadarSegmentation/Segmentation.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Vector.h \
+ C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/json.h

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ifxdaq.ai.yolo.yolo &mdash; ifxdaq  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ifxdaq.custom_typing" href="ifxdaq.custom_typing.html" />
+    <link rel="prev" title="ifxdaq.ai.yolo.stage" href="ifxdaq.ai.yolo.stage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            ifxdaq
+              <img src="../_static/ifx_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">ifxdaq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../daqkit.html">DaqKit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recorder.html">Recorder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../label.html">Labeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">FAQ / Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">How To Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ifxdaq.html">ifxdaq</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.html#ifxdaq.get_cache_dir"><code class="docutils literal notranslate"><span class="pre">get_cache_dir()</span></code></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ifxdaq.ai.html">ifxdaq.ai</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.commands.html">ifxdaq.ai.commands</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.compose.html">ifxdaq.ai.compose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.filter.html">ifxdaq.ai.filter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.label.html">ifxdaq.ai.label</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.stage_abc.html">ifxdaq.ai.stage_abc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.utils.html">ifxdaq.ai.utils</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.visualization.html">ifxdaq.ai.visualization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ifxdaq.ai.world_coordinates.html">ifxdaq.ai.world_coordinates</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="ifxdaq.ai.yolo.html">ifxdaq.ai.yolo</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.custom_typing.html">ifxdaq.custom_typing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.errors.html">ifxdaq.errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.fileio.html">ifxdaq.fileio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.manager.html">ifxdaq.manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.manager_config.html">ifxdaq.manager_config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.process.html">ifxdaq.process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.record.html">ifxdaq.record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.sensor.html">ifxdaq.sensor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ifxdaq.utils.html">ifxdaq.utils</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../file_format.html">File format reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ifxdaq</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../api.html">API reference</a></li>
+          <li class="breadcrumb-item"><a href="ifxdaq.html">ifxdaq</a></li>
+          <li class="breadcrumb-item"><a href="ifxdaq.ai.html">ifxdaq.ai</a></li>
+          <li class="breadcrumb-item"><a href="ifxdaq.ai.yolo.html">ifxdaq.ai.yolo</a></li>
+      <li class="breadcrumb-item active">ifxdaq.ai.yolo.yolo</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/_autosummary/ifxdaq.ai.yolo.yolo.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-ifxdaq.ai.yolo.yolo">
+<span id="ifxdaq-ai-yolo-yolo"></span><h1>ifxdaq.ai.yolo.yolo<a class="headerlink" href="#module-ifxdaq.ai.yolo.yolo" title="Permalink to this heading"></a></h1>
+<p>YOLO module.</p>
+<p class="rubric">Classes</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#ifxdaq.ai.yolo.yolo.YOLO8" title="ifxdaq.ai.yolo.yolo.YOLO8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">YOLO8</span></code></a>([model, task, model_size, classes, ...])</p></td>
+<td><p>YOLOv8 based object detection and Tracking.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py class">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ifxdaq.ai.yolo.yolo.</span></span><span class="sig-name descname"><span class="pre">YOLO8</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'yolov8'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'det'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'n'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nms</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>YOLOv8 based object detection and Tracking.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Model to use.</p></li>
+<li><p><strong>task</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Literal</span></code>[<code class="docutils literal notranslate"><span class="pre">'det'</span></code>, <code class="docutils literal notranslate"><span class="pre">'seg'</span></code>, <code class="docutils literal notranslate"><span class="pre">'pose'</span></code>]) – model typem, i.e. detector, segmentation, keypoints</p></li>
+<li><p><strong>model_size</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Literal</span></code>[<code class="docutils literal notranslate"><span class="pre">'n'</span></code>, <code class="docutils literal notranslate"><span class="pre">'s'</span></code>, <code class="docutils literal notranslate"><span class="pre">'m'</span></code>, <code class="docutils literal notranslate"><span class="pre">'l'</span></code>, <code class="docutils literal notranslate"><span class="pre">'x'</span></code>]) – <p>size of model to use from ultralytics zoo, trades precision vs inference time</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">yolov8n.pt</span></code>: Slim &amp; fast.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">yolov8s.pt</span></code>: Bigger &amp; more accurate.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">yolov8m.pt</span></code>: Bigger &amp; more accurate.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">yolov8l.pt</span></code>: Bigger &amp; more accurate.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">yolov8x.pt</span></code>: Largest &amp; most accurate.</p></li>
+<li><p>also allowable with suffix ‘seg’ and ‘pose’ before ‘.pt’ extension</p></li>
+</ul>
+</p></li>
+<li><p><strong>threshold</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>) – Detection threshold of the model.</p></li>
+<li><p><strong>nms</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>) – IoU threshold for the non-maximum suppression (nms).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>RuntimeError</strong> – N/A with YOLO8: If model initialization failed with the provided <cite>weights</cite>.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.get_cached_weights">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_cached_weights</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.get_cached_weights" title="Permalink to this definition"></a></dt>
+<dd><p>Download weights or reuse existing weights from cache.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Path</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.get_predictions">
+<span class="sig-name descname"><span class="pre">get_predictions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">results</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.get_predictions" title="Permalink to this definition"></a></dt>
+<dd><p>Process YOLO results to Detections.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>results</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Results</span></code>) – YOLO Results.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="ifxdaq.ai.utils.html#ifxdaq.ai.utils.Detection" title="ifxdaq.ai.utils.Detection"><code class="xref py py-class docutils literal notranslate"><span class="pre">Detection</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The inferred information.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.predict" title="Permalink to this definition"></a></dt>
+<dd><p>Detect objects in an image.</p>
+<p>This function is bypassed</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>image</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>) – Image of the scene (RGB).</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="ifxdaq.ai.utils.html#ifxdaq.ai.utils.Detection" title="ifxdaq.ai.utils.Detection"><code class="xref py py-class docutils literal notranslate"><span class="pre">Detection</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>List of detections (class, confidence, bounding box).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.track">
+<span class="sig-name descname"><span class="pre">track</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.track" title="Permalink to this definition"></a></dt>
+<dd><p>Run Yolo Track on given video file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Path</span></code>) – path to video</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Results</span></code>]</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The inferred information.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.config">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">config</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.config" title="Permalink to this definition"></a></dt>
+<dd><p>Configuration of the algorithm.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="ifxdaq.ai.yolo.yolo.YOLO8.meta_data">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">meta_data</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#ifxdaq.ai.yolo.yolo.YOLO8.meta_data" title="Permalink to this definition"></a></dt>
+<dd><p>Algorithms meta data.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ifxdaq.ai.yolo.stage.html" class="btn btn-neutral float-left" title="ifxdaq.ai.yolo.stage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ifxdaq.custom_typing.html" class="btn btn-neutral float-right" title="ifxdaq.custom_typing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright restricted | Infineon Technologies. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc muFFT-avx.a CMakeFiles/muFFT-avx.dir/x86/kernel.avx.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe muFFT-avx.a

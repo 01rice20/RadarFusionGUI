@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/rdk
+exec_prefix=${prefix}
+includedir=C:/Program Files (x86)/rdk/include
+libdir=C:/Program Files (x86)/rdk/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.13
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

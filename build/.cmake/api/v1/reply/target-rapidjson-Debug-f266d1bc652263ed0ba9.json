@@ -1,0 +1,276 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_interface_library",
+			"include"
+		],
+		"files" : 
+		[
+			"external/strata/cmake/Helper.cmake",
+			"external/strata/contrib/rapidjson.cmake",
+			"external/strata/contrib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "rapidjson::@20b99dd78acade63dbb1",
+	"name" : "rapidjson",
+	"paths" : 
+	{
+		"build" : "external/strata/contrib",
+		"source" : "external/strata/contrib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/allocators.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/document.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/encodedstream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/encodings.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/error/en.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/error/error.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/filereadstream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/filewritestream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/fwd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/biginteger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/diyfp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/dtoa.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/ieee754.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/itoa.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/meta.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/pow10.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/regex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/stack.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/strfunc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/strtod.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/internal/swap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/istreamwrapper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/memorybuffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/memorystream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/msinttypes/inttypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/msinttypes/stdint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/ostreamwrapper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/pointer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/prettywriter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/rapidjson.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/schema.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/stream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/stringbuffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/strata/contrib/rapidjson/include/rapidjson/writer.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

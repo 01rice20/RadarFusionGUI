@@ -1,0 +1,35 @@
+ifxdaq.ai.yolo.stage
+====================
+
+.. automodule:: ifxdaq.ai.yolo.stage
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      yolo
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      YOLOStage
+   
+   
+
+   
+   
+   
+
+
+

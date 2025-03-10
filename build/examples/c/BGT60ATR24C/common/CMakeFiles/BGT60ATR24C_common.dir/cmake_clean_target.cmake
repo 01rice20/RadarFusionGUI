@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "BGT60ATR24C_common.a"
+)

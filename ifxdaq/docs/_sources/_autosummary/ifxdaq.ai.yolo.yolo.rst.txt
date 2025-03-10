@@ -1,0 +1,29 @@
+ifxdaq.ai.yolo.yolo
+===================
+
+.. automodule:: ifxdaq.ai.yolo.yolo
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      YOLO8
+   
+   
+
+   
+   
+   
+
+
+

@@ -1,0 +1,74 @@
+Recorder
+========
+
+We provide a ``recorder`` tool to record data with sensors that are supported by ``ifxdaq``.
+It can be started from the command line (after you installed ``ifxdaq``):
+
+.. code-block:: bash
+
+  ifxdaq recorder
+
+.. image:: media/recorder_description.png
+
+.. list-table:: **Recorder control buttons**
+  :header-rows: 1
+
+  * - Button
+    - Functionality
+
+  * -
+      .. image:: media/discover.svg
+    - Discover connected devices.
+
+  * -
+      .. image:: media/record_start.svg
+    - Start the recording. The window might freeze for a short time - this is a known limitation.
+
+  * -
+      .. image:: media/record_start.svg
+    - Stop the recording.
+
+  * -
+      .. image:: media/browse_config.svg
+    - Open a file dialog to select sensor configurations.
+
+  * -
+      .. image:: media/view_config.svg
+    - View the current sensor configuration.
+
+
+
+Command line help
+-----------------
+
+If you want to enable specific options, you find them within the ``-h/--help`` menu:
+
+.. code-block:: bash
+
+  ifxdaq recorder --help
+  Usage: ifxdaq recorder [OPTIONS]
+
+    Recorder tool.
+
+  Options:
+    --config-file PATH              Configuration file.  [default: config.yaml]
+    --vis / --no-vis                Enable visualizations. (Warning: This can lead to frame drops.)  [default: vis]
+    --webcam / --no-webcam          Enable webcams. (Warning: This can cause side effects on other cameras used.)
+                                    [default: no-webcam]
+    --log-level [DEBUG|INFO|WARN|ERROR]
+                                    Log level.  [default: INFO]
+    -h, --help                      Show this message and exit.  [default: False]
+
+
+Radar configuration files
+-------------------------
+
+* **JSON configuration** - Find more details in the RDK documentation.
+
+  .. literalinclude:: ../src/ifxdaq/sensor/default_configs/RadarIfxAvian.json
+    :language: json
+    :caption: Exemplary JSON configuration file.
+
+* **Register lists** - Register lists can be exported via SensingGUI.
+
+  .. image:: media/sensing_gui.jpg

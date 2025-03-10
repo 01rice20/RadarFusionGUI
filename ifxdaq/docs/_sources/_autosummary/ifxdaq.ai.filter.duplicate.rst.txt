@@ -1,0 +1,32 @@
+ifxdaq.ai.filter.duplicate
+==========================
+
+.. automodule:: ifxdaq.ai.filter.duplicate
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      DropDuplicateFilter
+      DuplicateBBoxFilter
+      DuplicateFilter
+      DuplicateWorldFilter
+   
+   
+
+   
+   
+   
+
+
+

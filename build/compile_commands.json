@@ -1,0 +1,1227 @@
+[
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/contrib/pugixml",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" @CMakeFiles/pugixml-static.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\pugixml-static.dir\\src\\pugixml.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\contrib\\pugixml\\src\\pugixml.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/contrib/pugixml/src/pugixml.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/strata_boards.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\strata_boards.dir\\BoardList.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\BoardList.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/BoardList.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/strata_library.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\strata_library.dir\\Library.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\Library.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/Library.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -DTARGET_PLATFORM_WINDOWS @CMakeFiles/strata_version.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\strata_version.dir\\Version.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\Version.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/Version.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -DTARGET_PLATFORM_WINDOWS @CMakeFiles/strata_static.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\strata_static.dir\\Dummy.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\Dummy.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/Dummy.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -DTARGET_PLATFORM_WINDOWS -Dstrata_shared_EXPORTS @CMakeFiles/strata_shared.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\strata_shared.dir\\Dummy.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\Dummy.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/Dummy.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\crc\\Crc6.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\crc\\Crc6.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/crc/Crc6.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\crc\\Crc8.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\crc\\Crc8.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/crc/Crc8.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\crc\\Crc16.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\crc\\Crc16.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/crc/Crc16.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\crc\\Crc32.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\crc\\Crc32.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/crc/Crc32.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\endian\\LittleEndianReader.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\endian\\LittleEndianReader.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/endian/LittleEndianReader.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\Logger.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\Logger.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/Logger.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\Profiler.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\Profiler.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/Profiler.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\common.dir\\ProductVersion.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\common\\ProductVersion.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/common/ProductVersion.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\FlashImage.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\FlashImage.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/FlashImage.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\Registers8bitPec.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\Registers8bitPec.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/Registers8bitPec.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\imager\\ImagerIrs.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\imager\\ImagerIrs.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/imager/ImagerIrs.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\imager\\ImagerIrs11x5.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\imager\\ImagerIrs11x5.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/imager/ImagerIrs11x5.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\imager\\ImagerIrs16x5.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\imager\\ImagerIrs16x5.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/imager/ImagerIrs16x5.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\imager\\PinsIrs.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\imager\\PinsIrs.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/imager/PinsIrs.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\imager\\RegistersIrs.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\imager\\RegistersIrs.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/imager/RegistersIrs.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\powerSupply\\PowerSupplyMax2043xPec.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\powerSupply\\PowerSupplyMax2043xPec.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/powerSupply/PowerSupplyMax2043xPec.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\powerSupply\\SupplyMonitorIna231.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\powerSupply\\SupplyMonitorIna231.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/powerSupply/SupplyMonitorIna231.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\radar\\TypeSerialization.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\radar\\TypeSerialization.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/radar/TypeSerialization.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\nonvolatileMemory\\NonvolatileMemory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\nonvolatileMemory\\NonvolatileMemory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/nonvolatileMemory/NonvolatileMemory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\nonvolatileMemory\\NonvolatileMemoryEepromI2c.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\nonvolatileMemory\\NonvolatileMemoryEepromI2c.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\nonvolatileMemory\\NonvolatileMemoryFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\nonvolatileMemory\\NonvolatileMemoryFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/nonvolatileMemory/NonvolatileMemoryFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\nonvolatileMemory\\NonvolatileMemoryFlashSpi.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\nonvolatileMemory\\NonvolatileMemoryFlashSpi.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\temperature\\TemperatureSensorTMP102.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\temperature\\TemperatureSensorTMP102.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/temperature/TemperatureSensorTMP102.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\temperature\\TemperatureSensorMCP98x43.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\temperature\\TemperatureSensorMCP98x43.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/temperature/TemperatureSensorMCP98x43.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/components",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/components.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\components.dir\\processing\\ProcessingRadar.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\components\\processing\\ProcessingRadar.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/components/processing/ProcessingRadar.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\BoardAny.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\BoardAny.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/BoardAny.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\BoardDescriptor.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\BoardDescriptor.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/BoardDescriptor.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\BoardInstance.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\BoardInstance.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/BoardInstance.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\BoardManager.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\BoardManager.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/BoardManager.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\NamedMemory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\NamedMemory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/NamedMemory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\Memory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\Memory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/Memory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\RegisterGenerator.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\RegisterGenerator.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/RegisterGenerator.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeControl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeControl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeControl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeData.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeData.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeData.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocol.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocol.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocol.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolI2c.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolI2c.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolI2c.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolGpio.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolGpio.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolGpio.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolSpi.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolSpi.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolSpi.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolMemory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolMemory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolMemory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeProtocolData.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeProtocolData.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeProtocolData.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\BridgeWrapperBase.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\BridgeWrapperBase.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/BridgeWrapperBase.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\bridge\\VendorCommandsImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\bridge\\VendorCommandsImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/bridge/VendorCommandsImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BridgeEthernet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BridgeEthernet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BridgeEthernet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BridgeEthernetControl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BridgeEthernetControl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BridgeEthernetControl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BridgeEthernetData.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BridgeEthernetData.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BridgeEthernetData.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BridgeEthernetTcp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BridgeEthernetTcp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BridgeEthernetTcp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BridgeEthernetUdp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BridgeEthernetUdp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BridgeEthernetUdp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\EnumeratorEthernet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\EnumeratorEthernet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/EnumeratorEthernet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BoardEthernetTcp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BoardEthernetTcp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BoardEthernetTcp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BoardEthernetUdp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BoardEthernetUdp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BoardEthernetUdp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\BoardDescriptorEthernet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\BoardDescriptorEthernet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/BoardDescriptorEthernet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\SocketTcp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\SocketTcp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/SocketTcp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\ethernet\\SocketUdp.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\ethernet\\SocketUdp.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/ethernet/SocketUdp.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\fpga\\BridgeFpgaIrpli.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\fpga\\BridgeFpgaIrpli.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/fpga/BridgeFpgaIrpli.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\DebugFrame.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\DebugFrame.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/DebugFrame.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\ErrorFrame.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\ErrorFrame.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/ErrorFrame.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\Frame.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\Frame.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/Frame.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\FrameBase.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\FrameBase.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/FrameBase.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\FrameForwarder.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\FrameForwarder.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/FrameForwarder.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\FramePool.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\FramePool.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/FramePool.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\FrameQueue.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\FrameQueue.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/FrameQueue.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\frames\\FrameHelper.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\frames\\FrameHelper.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/frames/FrameHelper.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\macro\\BoardInstanceMacro.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\macro\\BoardInstanceMacro.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/macro/BoardInstanceMacro.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\macro\\BridgeMacro.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\macro\\BridgeMacro.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/macro/BridgeMacro.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\serial\\SerialPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\serial\\SerialPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/serial/SerialPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\serial\\BridgeSerial.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\serial\\BridgeSerial.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/serial/BridgeSerial.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\serial\\BoardSerial.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\serial\\BoardSerial.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/serial/BoardSerial.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\uvc\\BoardUvc.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\uvc\\BoardUvc.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/uvc/BoardUvc.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\uvc\\VendorExtensionCypress.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\uvc\\VendorExtensionCypress.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/uvc/VendorExtensionCypress.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\uvc\\VendorExtensionRealtek.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\uvc\\VendorExtensionRealtek.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/uvc/VendorExtensionRealtek.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\uvc\\VendorExtensionRealtekFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\uvc\\VendorExtensionRealtekFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/uvc/VendorExtensionRealtekFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\uvc\\VendorExtensionRealtekI2c.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\uvc\\VendorExtensionRealtekI2c.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/uvc/VendorExtensionRealtekI2c.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\boards\\Board.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\boards\\Board.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/boards/Board.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\boards\\BoardGeneric.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\boards\\BoardGeneric.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/boards/BoardGeneric.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\boards\\BoardRemote.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\boards\\BoardRemote.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/boards/BoardRemote.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\serial\\SerialPortImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\serial\\SerialPortImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/serial/SerialPortImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\serial\\EnumeratorSerialImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\serial\\EnumeratorSerialImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/serial/EnumeratorSerialImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\ethernet\\SocketImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\ethernet\\SocketImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/ethernet/SocketImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\ethernet\\SocketTcpImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\ethernet\\SocketTcpImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/ethernet/SocketTcpImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\ethernet\\SocketUdpImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\ethernet\\SocketUdpImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/ethernet/SocketUdpImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\serial\\SerialPortImplAsync.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\serial\\SerialPortImplAsync.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/serial/SerialPortImplAsync.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\video\\EnumeratorDirectShow.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\video\\EnumeratorDirectShow.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/video/EnumeratorDirectShow.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\video\\BridgeDirectShow.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\video\\BridgeDirectShow.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/video/BridgeDirectShow.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/platform",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS -D_WIN32_WINNT=0x0600 @CMakeFiles/platform.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -w -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\platform.dir\\impl\\Windows\\video\\Win32Utils.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\platform\\impl\\Windows\\video\\Win32Utils.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/platform/impl/Windows/video/Win32Utils.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteGasBoyle.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteGasBoyle.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteGasBoyle.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteProtocolAtr22.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteProtocolAtr22.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteProtocolAtr22.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteProtocolAvian.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteProtocolAvian.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteProtocolAvian.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteProtocolLtr11.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteProtocolLtr11.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteProtocolLtr11.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteProtocolSmartar.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteProtocolSmartar.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteProtocolSmartar.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemotePinsAvian.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemotePinsAvian.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemotePinsAvian.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemotePinsLtr11.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemotePinsLtr11.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemotePinsLtr11.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemotePinsSmartar.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemotePinsSmartar.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemotePinsSmartar.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteProcessingRadar.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteProcessingRadar.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteProcessingRadar.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteRegisters.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteRegisters.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteRegisters.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteRadarAvian.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteRadarAvian.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteRadarAvian.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteRadarAtr22.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteRadarAtr22.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteRadarAtr22.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteRadarLtr11.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteRadarLtr11.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteRadarLtr11.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteRadarSmartar.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteRadarSmartar.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteRadarSmartar.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/remote",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/remote.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -Wsuggest-override -g -g -Werror -Wno-psabi -std=gnu++11 -o CMakeFiles\\remote.dir\\RemoteVendorCommands.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\remote\\RemoteVendorCommands.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/remote/RemoteVendorCommands.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/strata/library/universal",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DNOMINMAX -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_EXPORT -DTARGET_PLATFORM_WINDOWS @CMakeFiles/universal.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\universal.dir\\error_strings.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\strata\\library\\universal\\error_strings.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/strata/library/universal/error_strings.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\data_acquisition.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\data_acquisition.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/data_acquisition.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\default_settings.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\default_settings.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/default_settings.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\easy_mode.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\easy_mode.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/easy_mode.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\ifxRadar_BGT60TRxx.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\ifxRadar_BGT60TRxx.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/ifxRadar_BGT60TRxx.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\spi_programming.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\spi_programming.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/spi_programming.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\Driver\\testing.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\Driver\\testing.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/Driver/testing.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_CwController.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_CwController.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_CwController.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_DeviceTraits.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_DeviceTraits.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_DeviceTraits.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_ErrorCodes.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_ErrorCodes.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_ErrorCodes.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_HwTest.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_HwTest.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_HwTest.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_ParameterExtractor.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_ParameterExtractor.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_ParameterExtractor.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_RegisterSet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_RegisterSet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_RegisterSet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_SensorMeter.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_SensorMeter.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_SensorMeter.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_StrataUtilities.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_StrataUtilities.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_StrataUtilities.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ifxAvian_Utilities.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ifxAvian_Utilities.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ifxAvian_Utilities.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ports\\ifxAvian_DummyPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ports\\ifxAvian_DummyPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ports/ifxAvian_DummyPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\ports\\ifxAvian_StrataPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\ports\\ifxAvian_StrataPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/ports/ifxAvian_StrataPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\timing_model\\ModelBGT60TR11D.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\timing_model\\ModelBGT60TR11D.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/timing_model/ModelBGT60TR11D.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\timing_model\\ModelBGT60TRxxC.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\timing_model\\ModelBGT60TRxxC.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/timing_model/ModelBGT60TRxxC.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\timing_model\\ModelBGT60TRxxD.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\timing_model\\ModelBGT60TRxxD.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/timing_model/ModelBGT60TRxxD.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\timing_model\\SequenceParameters.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\timing_model\\SequenceParameters.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/timing_model/SequenceParameters.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\timing_model\\StateSequence.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\timing_model\\StateSequence.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/timing_model/StateSequence.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\value_conversion\\ifxAvian_RfConversion.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\value_conversion\\ifxAvian_RfConversion.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/value_conversion/ifxAvian_RfConversion.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/external/lib_avian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dlib_avian_EXPORTS @CMakeFiles/lib_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\lib_avian.dir\\src\\value_conversion\\ifxAvian_TimingConversion.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\external\\lib_avian\\src\\value_conversion\\ifxAvian_TimingConversion.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/external/lib_avian/src/value_conversion/ifxAvian_TimingConversion.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/argparse",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" @CMakeFiles/argparse.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\argparse.dir\\argparse.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\argparse\\argparse.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/argparse/argparse.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\Applet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\Applet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/Applet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\D2xNvmFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\D2xNvmFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/D2xNvmFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\D5xNvmFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\D5xNvmFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/D5xNvmFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\Device.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\Device.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/Device.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\EefcFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\EefcFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/EefcFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\EfcFlash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\EfcFlash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/EfcFlash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\Flash.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\Flash.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/Flash.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\Flasher.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\Flasher.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/Flasher.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\LinuxPortFactory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\LinuxPortFactory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/LinuxPortFactory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\OSXPortFactory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\OSXPortFactory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/OSXPortFactory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\PosixSerialPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\PosixSerialPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/PosixSerialPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\Samba.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\Samba.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/Samba.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\WinPortFactory.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\WinPortFactory.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/WinPortFactory.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\WinSerialPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\WinSerialPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/WinSerialPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\WordCopyApplet.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\WordCopyApplet.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/WordCopyApplet.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/bossa",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/bossa.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -Wno-cast-function-type -std=gnu++17 -o CMakeFiles\\bossa.dir\\WordCopyArm.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\bossa\\WordCopyArm.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/bossa/WordCopyArm.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\"  -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -msse -msse3 -mavx -Wall -Wextra -std=gnu99 -o CMakeFiles\\muFFT-avx.dir\\x86\\kernel.avx.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\x86\\kernel.avx.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/x86/kernel.avx.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\"  -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -msse -mno-sse3 -mno-avx -Wall -Wextra -std=gnu99 -o CMakeFiles\\muFFT-sse.dir\\x86\\kernel.sse.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\x86\\kernel.sse.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/x86/kernel.sse.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\"  -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -msse -msse3 -mno-avx -Wall -Wextra -std=gnu99 -o CMakeFiles\\muFFT-sse3.dir\\x86\\kernel.sse3.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\x86\\kernel.sse3.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/x86/kernel.sse3.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DMUFFT_HAVE_AVX -DMUFFT_HAVE_SSE -DMUFFT_HAVE_SSE3 -DMUFFT_HAVE_X86 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" @CMakeFiles/muFFT.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -Wall -Wextra -std=gnu99 -std=gnu99 -o CMakeFiles\\muFFT.dir\\fft.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\fft.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/fft.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DMUFFT_HAVE_AVX -DMUFFT_HAVE_SSE -DMUFFT_HAVE_SSE3 -DMUFFT_HAVE_X86 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" @CMakeFiles/muFFT.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -Wall -Wextra -std=gnu99 -std=gnu99 -o CMakeFiles\\muFFT.dir\\kernel.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\kernel.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/kernel.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/3rd_party/libs/muFFT",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DMUFFT_HAVE_AVX -DMUFFT_HAVE_SSE -DMUFFT_HAVE_SSE3 -DMUFFT_HAVE_X86 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" @CMakeFiles/muFFT.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -Wall -Wextra -std=gnu99 -std=gnu99 -o CMakeFiles\\muFFT.dir\\cpu.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\3rd_party\\libs\\muFFT\\cpu.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/3rd_party/libs/muFFT/cpu.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\2DMTI.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\2DMTI.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/2DMTI.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\DBSCAN.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\DBSCAN.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/DBSCAN.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\FFT.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\FFT.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/FFT.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\MTI.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\MTI.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/MTI.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\OSCFAR.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\OSCFAR.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/OSCFAR.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\PreprocessedFFT.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\PreprocessedFFT.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/PreprocessedFFT.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\Signal.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\Signal.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/Signal.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAlgo",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_algo_EXPORTS @CMakeFiles/sdk_algo.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_algo.dir\\Window.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAlgo\\Window.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAlgo/Window.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAvian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_avian_EXPORTS @CMakeFiles/sdk_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_avian.dir\\DeviceConfig.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAvian\\DeviceConfig.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceConfig.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAvian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_avian_EXPORTS @CMakeFiles/sdk_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_avian.dir\\DeviceControl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAvian\\DeviceControl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/DeviceControl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxAvian",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_avian_EXPORTS @CMakeFiles/sdk_avian.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_avian.dir\\Metrics.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxAvian\\Metrics.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxAvian/Metrics.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Complex.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Complex.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Complex.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Cube.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Cube.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Cube.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Error.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Error.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Error.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\LA.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\LA.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/LA.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_base.dir\\List.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\List.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/List.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Log.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Log.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Log.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Math.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Math.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Math.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Matrix.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Matrix.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Matrix.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_base.dir\\Mda.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Mda.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Mda.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Mem.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Mem.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Mem.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Util.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Util.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Util.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Uuid.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Uuid.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Uuid.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Vector.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Vector.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Vector.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxBase",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_base_EXPORTS @CMakeFiles/sdk_base.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_base.dir\\Version.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxBase\\Version.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxBase/Version.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxComPort",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -Dradar_sdk_EXPORTS=1 @CMakeFiles/sdk_comport_obj.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_comport_obj.dir\\COMPort_Unix.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxComPort\\COMPort_Unix.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxComPort/COMPort_Unix.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxComPort",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -Dradar_sdk_EXPORTS=1 @CMakeFiles/sdk_comport_obj.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_comport_obj.dir\\COMPort_Windows.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxComPort\\COMPort_Windows.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxComPort/COMPort_Windows.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxComPort",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -Dradar_sdk_EXPORTS=1 @CMakeFiles/sdk_comport_obj.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_comport_obj.dir\\ComPort.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxComPort\\ComPort.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxComPort/ComPort.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxCw",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_cw_EXPORTS @CMakeFiles/sdk_cw.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_cw.dir\\DeviceCwTypes.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxCw\\DeviceCwTypes.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxCw/DeviceCwTypes.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxCw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_cw_EXPORTS @CMakeFiles/sdk_cw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_cw.dir\\DeviceCw.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxCw\\DeviceCw.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxCw/DeviceCw.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxCw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_cw_EXPORTS @CMakeFiles/sdk_cw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_cw.dir\\DeviceCwBase.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxCw\\DeviceCwBase.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxCw/DeviceCwBase.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxCw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_cw_EXPORTS @CMakeFiles/sdk_cw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_cw.dir\\avian\\DeviceCwAvian.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxCw\\avian\\DeviceCwAvian.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxCw/avian/DeviceCwAvian.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_fmcw.dir\\DeviceFmcwTypes.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\DeviceFmcwTypes.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcwTypes.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_fmcw.dir\\DeviceFmcw.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\DeviceFmcw.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcw.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_fmcw.dir\\DeviceFmcwBase.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\DeviceFmcwBase.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcwBase.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_fmcw.dir\\DeviceFmcwCWrapper.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\DeviceFmcwCWrapper.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/DeviceFmcwCWrapper.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_fmcw.dir\\MetricsFmcw.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\MetricsFmcw.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/MetricsFmcw.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxFmcw",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_fmcw_EXPORTS @CMakeFiles/sdk_fmcw.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_fmcw.dir\\avian\\DeviceFmcwAvian.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxFmcw\\avian\\DeviceFmcwAvian.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxFmcw/avian/DeviceFmcwAvian.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxLtr11",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_ltr11_EXPORTS @CMakeFiles/sdk_ltr11.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_ltr11.dir\\DeviceLtr11.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxLtr11\\DeviceLtr11.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxLtr11/DeviceLtr11.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxLtr11",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_ltr11_EXPORTS @CMakeFiles/sdk_ltr11.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_ltr11.dir\\DeviceLtr11Impl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxLtr11\\DeviceLtr11Impl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxLtr11/DeviceLtr11Impl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxLtr11",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_ltr11_EXPORTS @CMakeFiles/sdk_ltr11.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_ltr11.dir\\DeviceLtr11Base.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxLtr11\\DeviceLtr11Base.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxLtr11/DeviceLtr11Base.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxLtr11",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_ltr11_EXPORTS @CMakeFiles/sdk_ltr11.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_ltr11.dir\\DeviceLtr11Dummy.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxLtr11\\DeviceLtr11Dummy.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxLtr11/DeviceLtr11Dummy.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxLtr11",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_ltr11_EXPORTS @CMakeFiles/sdk_ltr11.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_ltr11.dir\\DeviceLtr11RegisterConfigurator.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxLtr11\\DeviceLtr11RegisterConfigurator.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxLtr11/DeviceLtr11RegisterConfigurator.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxMimose",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_mimose_EXPORTS @CMakeFiles/sdk_mimose.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_mimose.dir\\DeviceMimose.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxMimose\\DeviceMimose.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxMimose/DeviceMimose.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxMimose",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_mimose_EXPORTS @CMakeFiles/sdk_mimose.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_mimose.dir\\DeviceMimoseImpl.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxMimose\\DeviceMimoseImpl.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxMimose/DeviceMimoseImpl.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxMimose",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_mimose_EXPORTS @CMakeFiles/sdk_mimose.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_mimose.dir\\DeviceMimoseBase.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxMimose\\DeviceMimoseBase.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxMimose/DeviceMimoseBase.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxMimose",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_mimose_EXPORTS @CMakeFiles/sdk_mimose.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_mimose.dir\\DeviceMimoseDummy.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxMimose\\DeviceMimoseDummy.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxMimose/DeviceMimoseDummy.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxMimose",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_mimose_EXPORTS @CMakeFiles/sdk_mimose.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_mimose.dir\\DeviceMimoseRegisterConfigurator.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxMimose\\DeviceMimoseRegisterConfigurator.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxMimose/DeviceMimoseRegisterConfigurator.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\AngleCapon.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\AngleCapon.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/AngleCapon.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\AngleMonopulse.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\AngleMonopulse.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/AngleMonopulse.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\DBF.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\DBF.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/DBF.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_radar.dir\\DeInterleaver.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\DeInterleaver.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/DeInterleaver.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\PeakSearch.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\PeakSearch.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/PeakSearch.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\RangeAngleImage.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\RangeAngleImage.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/RangeAngleImage.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\RangeDopplerMap.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\RangeDopplerMap.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/RangeDopplerMap.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\RangeSpectrum.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\RangeSpectrum.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/RangeSpectrum.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_radar.dir\\SpectrumAxis.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\SpectrumAxis.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/SpectrumAxis.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadar",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_EXPORTS @CMakeFiles/sdk_radar.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\sdk_radar.dir\\DopplerSpectrogram.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadar\\DopplerSpectrogram.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadar/DopplerSpectrogram.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/sdk/c/ifxRadarDeviceCommon",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DIFX_LOG_SEVERITY_INFO=1 -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 -Dradar_sdk_EXPORTS=1 -Dsdk_radar_device_common_EXPORTS @CMakeFiles/sdk_radar_device_common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\sdk_radar_device_common.dir\\RadarDeviceCommon.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\sdk\\c\\ifxRadarDeviceCommon\\RadarDeviceCommon.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/sdk/c/ifxRadarDeviceCommon/RadarDeviceCommon.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT24ATR22/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT24ATR22_raw_data_atr22.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT24ATR22_raw_data_atr22.dir\\raw_data.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT24ATR22\\raw_data\\raw_data.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT24ATR22/raw_data/raw_data.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT24ATR22/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT24ATR22_raw_data_atr22.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\BGT24ATR22_raw_data_atr22.dir\\read_configuration.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT24ATR22\\raw_data\\read_configuration.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT24ATR22/raw_data/read_configuration.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_common.dir\\common.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\common\\common.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/common/common.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\BGT60ATR24C_common.dir\\json.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\common\\json.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/common/json.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_common.dir\\time_formatter.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\common\\time_formatter.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/common/time_formatter.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_common.dir\\util.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\common\\util.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/common/util.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/continuous_wave",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_continuous_wave.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_continuous_wave.dir\\continuous_wave.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\continuous_wave\\continuous_wave.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/continuous_wave/continuous_wave.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/motion_angle",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_motion_angle.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_motion_angle.dir\\motion_angle.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\motion_angle\\motion_angle.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/motion_angle/motion_angle.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/presence_detection",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_presence_detection.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_presence_detection.dir\\presence_detection.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\presence_detection\\presence_detection.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/presence_detection/presence_detection.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/range_doppler_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_range_doppler_map.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_range_doppler_map.dir\\range_doppler_map.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\range_doppler_map\\range_doppler_map.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/range_doppler_map/range_doppler_map.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_raw_data.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_raw_data.dir\\raw_data.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\raw_data\\raw_data.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/raw_data/raw_data.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60ATR24C/segmentation",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60ATR24C_segmentation.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60ATR24C_segmentation.dir\\segmentation.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60ATR24C\\segmentation\\segmentation.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60ATR24C/segmentation/segmentation.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60LTR11AIP/advanced_motion_sensing",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60LTR11AIP_advanced_motion_sensing.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60LTR11AIP_advanced_motion_sensing.dir\\advanced_motion_sensing.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60LTR11AIP\\advanced_motion_sensing\\advanced_motion_sensing.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60LTR11AIP/advanced_motion_sensing/advanced_motion_sensing.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60LTR11AIP/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60LTR11AIP_raw_data_ltr11.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60LTR11AIP_raw_data_ltr11.dir\\raw_data.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60LTR11AIP\\raw_data\\raw_data.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60LTR11AIP/raw_data/raw_data.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_common.dir\\common.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\common\\common.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/common/common.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\BGT60TR13C_common.dir\\json.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\common\\json.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/common/json.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_common.dir\\time_formatter.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\common\\time_formatter.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/common/time_formatter.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_common.dir\\util.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\common\\util.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/common/util.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/continuous_wave",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_continuous_wave.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_continuous_wave.dir\\continuous_wave.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\continuous_wave\\continuous_wave.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/continuous_wave/continuous_wave.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/motion_angle",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_motion_angle.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_motion_angle.dir\\motion_angle.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\motion_angle\\motion_angle.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/motion_angle/motion_angle.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/presence_detection",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_presence_detection.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_presence_detection.dir\\presence_detection.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\presence_detection\\presence_detection.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/presence_detection/presence_detection.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/range_doppler_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_range_doppler_map.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_range_doppler_map.dir\\range_doppler_map.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\range_doppler_map\\range_doppler_map.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/range_doppler_map/range_doppler_map.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_raw_data.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_raw_data.dir\\raw_data.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\raw_data\\raw_data.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/raw_data/raw_data.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60TR13C/segmentation",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60TR13C_segmentation.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60TR13C_segmentation.dir\\segmentation.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60TR13C\\segmentation\\segmentation.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60TR13C/segmentation/segmentation.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_common.dir\\common.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\common\\common.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/common.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_common.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\BGT60UTR11AIP_common.dir\\json.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\common\\json.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/json.cpp"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_common.dir\\time_formatter.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\common\\time_formatter.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/time_formatter.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_common.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_common.dir\\util.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\common\\util.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/common/util.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/continuous_wave",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_continuous_wave.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_continuous_wave.dir\\continuous_wave.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\continuous_wave\\continuous_wave.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/continuous_wave/continuous_wave.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/presence_detection",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_presence_detection.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_presence_detection.dir\\presence_detection.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\presence_detection\\presence_detection.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/presence_detection/presence_detection.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/examples/c/BGT60UTR11AIP/raw_data",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/BGT60UTR11AIP_raw_data.dir/includes_C.rsp -Wall -Wextra -Wno-unused-parameter -Wvla -Wall -Wextra -Wno-unused-parameter -Wvla -g -g -g -Werror -Wno-psabi -std=gnu99 -o CMakeFiles\\BGT60UTR11AIP_raw_data.dir\\raw_data.c.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\examples\\c\\BGT60UTR11AIP\\raw_data\\raw_data.c",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/examples/c/BGT60UTR11AIP/raw_data/raw_data.c"
+},
+{
+  "directory": "C:/Users/HanaL/Documents/RadarFusionGUI/build/tools/bgt60-configurator-cli",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRAPIDJSON_HAS_STDSTRING -DSDK_COMMIT_HASH=\\\"\\\" -DSDK_VERSION=\\\"3.5.0\\\" -DSDK_VERSION_FULL=\\\"3.5.0+\\\" -DSTRATA_IMPORT -DSTRATA_VERSION_BUILD=0 -DSTRATA_VERSION_MAJOR=2 -DSTRATA_VERSION_MINOR=3 -DSTRATA_VERSION_PATCH=1 @CMakeFiles/bgt60-configurator-cli.dir/includes_CXX.rsp -Wall -Wextra -Wno-unused-parameter -g -g -Werror -Wno-psabi -std=gnu++17 -o CMakeFiles\\bgt60-configurator-cli.dir\\bgt60-configurator-cli.cpp.obj -c C:\\Users\\HanaL\\Documents\\RadarFusionGUI\\radar_sdk\\tools\\bgt60-configurator-cli\\bgt60-configurator-cli.cpp",
+  "file": "C:/Users/HanaL/Documents/RadarFusionGUI/radar_sdk/tools/bgt60-configurator-cli/bgt60-configurator-cli.cpp"
+}
+]

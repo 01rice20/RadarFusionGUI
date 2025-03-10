@@ -1,0 +1,23 @@
+Detection stage
+^^^^^^^^^^^^^^^
+
+Detect persons & objects in images. These stages are applied to raw camera recordings and produce detections (bounding
+boxes, semantic segmentation, or human keypoints) in image coordinates.
+
+Our detection is based on `Ultralytics YOLOv8 <https://docs.ultralytics.com/>`_ - you can find more details in the
+official documentation.
+
+.. list-table:: **Available stages**
+    :header-rows: 1
+
+    * - Stage name & preview
+      - Description & Parameters (API)
+
+    * - ``yolo``
+
+        .. image:: media/detection.png
+
+      - .. autofunction:: ifxdaq.ai.yolo.stage.yolo
+          :noindex:
+
+        * Available models: `Ultralytics model zoo <https://docs.ultralytics.com/models/>`_
