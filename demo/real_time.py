@@ -213,7 +213,7 @@ if __name__ == '__main__':
     doppler_bins = np.fft.fftfreq(samples_per_frame, d=1/sampling_frequency_hz)
     time_bins = np.array([frame_period_sec * i for i in range(frame_number)])
 
-    file_name = f'../../Users/HanaL/Documents/RadarFusionGUI/BGT60LTR11AIP/frame_data.txt'
+    file_name = f'C:\Users\HanaL\Desktop\RadarFusionGUI/BGT60LTR11AIP/frame_data.txt'
     move = []
     data = []
     predict_class = -1
