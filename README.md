@@ -25,14 +25,14 @@ When the human activity amplitude is lower, it will switch to the heart rate and
 │ │ │ ├── c/
 │ │ │ │ ├── BGT60LTR11AIP/
 │ │ │ │ │ ├── advanced_motion_sensing
-│ │ │ │ │ │ ├── advanced_motion_sensing.c
+│ │ │ │ │ │ |__ advanced_motion_sensing.c
 ```
 ## Enviroments
-OS: Windows 11
-GPU: Nvidia Geforce RTX 3060 Laptop
-CUDA: 12.7
-Python 3.10.11
-Ubuntu 20.04 LTS
+- OS: Windows 11
+- GPU: Nvidia Geforce RTX 3060 Laptop
+- CUDA: 12.7
+- Python 3.10.11
+- Ubuntu 20.04 LTS
 
 ## Requirements
 The code requires python>=3.10.11, as well as pytorch>=2.0.1 and CUDA 12.7
