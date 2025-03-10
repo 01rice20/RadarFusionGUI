@@ -10,6 +10,7 @@ After detecting that the human activity amplitude exceeds a certain threshold, t
 When the human activity amplitude is lower, it will switch to the heart rate and respiratory rate detection mode. After accumulating static signals for a certain period of time, the corresponding heart rate and respiratory rate values will be output and displayed.
 
 ## Directory Structure
+```
 /.
 ├── RadarFusionGUI/
 │ ├── demo/
@@ -25,7 +26,7 @@ When the human activity amplitude is lower, it will switch to the heart rate and
 │ │ │ │ ├── BGT60LTR11AIP/
 │ │ │ │ │ ├── advanced_motion_sensing
 │ │ │ │ │ │ ├── advanced_motion_sensing.c
-
+```
 ## Enviroments
 OS: Windows 11
 GPU: Nvidia Geforce RTX 3060 Laptop
