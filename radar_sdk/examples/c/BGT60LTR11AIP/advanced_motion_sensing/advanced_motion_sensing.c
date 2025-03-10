@@ -42,10 +42,16 @@
    1. INCLUDE FILES 
 ==============================================================================
 */
+// For Motion Sensing
 #include "ifxAdvancedMotionSensing/AdvancedMotionSensing.h"
 #include "ifxBase/Error.h"
 #include "ifxLtr11/DeviceLtr11.h"
 #include <argparse.h>
+
+// For Raw data
+#include <stdio.h>
+#include <stdlib.h>
+#include "ifxBase/Base.h"
 
 /*
  ==============================================================================
@@ -82,21 +88,38 @@ typedef struct
  *
  * @param algo_output       output of the motion sensing algorithm
  */
-static void process_advanced_motion_sensing_result(ifx_Advanced_Motion_Sensing_Output_t* algo_output)
+
+void process_frame_file(const ifx_Vector_C_t* frame, FILE *fp)
+{
+    for (int i = 0; i < 256; i++) {
+        ifx_Float_t real_part = frame->data[i].data[0];
+        ifx_Float_t imag_part = frame->data[i].data[1];
+        
+        // printf("%f\n%f\n", real_part, imag_part);
+        fprintf(fp, "%f\n%f\n", real_part, imag_part);
+    }
+}
+
+static void process_advanced_motion_sensing_result(ifx_Advanced_Motion_Sensing_Output_t* algo_output, ifx_Vector_C_t* frame, FILE *fp)
 {
     IFX_ERR_BRK_NULL(algo_output);
     printf("Output of the interference mitigation algorithm: \n");
     printf("Computed Amplitude: %d", algo_output->peak_to_peak_amplitude);
     printf(" Target detection output: ");
-    if (algo_output->target_detection == TARGET_MOTION_DETECTED)
+
+    if (algo_output->target_detection == TARGET_MOTION_DETECTED || algo_output->target_detection == POTENTIAL_TARGET_DETECTED)
     {
-        printf("Target detected \n");
-    }
-    else if (algo_output->target_detection == POTENTIAL_TARGET_DETECTED)
-    {
-        printf("Potential target detected\n");
-    }
-    else
+        if(algo_output->peak_to_peak_amplitude > 200)
+        {
+            printf("Target moving\n");
+            fprintf(fp, "%d\n", 1);
+            process_frame_file(frame, fp);
+        }else{
+            printf("Target detected\n");
+            fprintf(fp, "%d\n", 0);
+            process_frame_file(frame, fp);
+        }
+    }else
     {
         printf("No target detected\n");
     }
@@ -175,7 +198,7 @@ ifx_Error_t advanced_motion_sensing_cleanup(advanced_motion_sensing_context_t* c
  *
  * @param ctx           context of the application
  */
-ifx_Error_t advanced_motion_sensing_process(advanced_motion_sensing_context_t* ctx)
+ifx_Error_t advanced_motion_sensing_process(advanced_motion_sensing_context_t* ctx, FILE *fp)
 {
     ifx_advanced_motion_sensing_run(ctx->advanced_motion_sensing_instance, ctx->frame,
                                     &ctx->output);
@@ -184,8 +207,7 @@ ifx_Error_t advanced_motion_sensing_process(advanced_motion_sensing_context_t* c
         return ifx_error_get();
     }
 
-    process_advanced_motion_sensing_result(&ctx->output);
-
+    process_advanced_motion_sensing_result(&ctx->output, ctx->frame, fp);
     return IFX_OK;
 }
 
@@ -198,9 +220,9 @@ ifx_Error_t advanced_motion_sensing_process(advanced_motion_sensing_context_t* c
 int main(int argc, char* argv[])
 {
     ifx_Error_t error_code;
-    int num_of_frames_to_fetch = 220;
+    int num_of_frames_to_fetch = 468;   // 468 frames is 1 minute of data
     advanced_motion_sensing_context_t advanced_motion_sensing_context = {0};
-    advanced_motion_sensing_context.config.advanced_motion_sensing_threshold = 80;  //[10-100], default 40
+    advanced_motion_sensing_context.config.advanced_motion_sensing_threshold = 10;  //[10-100], default 40
     advanced_motion_sensing_context.config.enable_interference_mitigation = true;
 
     const char* const usage_str[] = {
@@ -247,6 +269,12 @@ int main(int argc, char* argv[])
         goto fail;
     }
 
+    FILE *fp;
+    fp = fopen("C:\\Users\\HanaL\\Desktop\\RadarFusionGUI\\BGT60LTR11AIP\\frame_data.txt", "w");
+    if (fp == NULL) {
+        printf("Cannot open file。\n");
+    }
+
     for (int i = 0; i < num_of_frames_to_fetch; i++)
     {
         advanced_motion_sensing_context.frame = ifx_ltr11_get_next_frame(advanced_motion_sensing_context.device, advanced_motion_sensing_context.frame, &advanced_motion_sensing_context.metadata);
@@ -256,7 +284,7 @@ int main(int argc, char* argv[])
             fprintf(stderr, "Failed to fetch frame: %s\n", ifx_error_to_string(error_code));
             goto fail;
         }
-        error_code = advanced_motion_sensing_process(&advanced_motion_sensing_context);
+        error_code = advanced_motion_sensing_process(&advanced_motion_sensing_context, fp);
         if (error_code)
         {
             fprintf(stderr, "Failed to run the advanced motion sensing algorithm: %s\n", ifx_error_to_string(error_code));
