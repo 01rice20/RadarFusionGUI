@@ -7,7 +7,8 @@ A real-time vital sign and activity detection system based on Infineon BGT60LTR1
 
 
 After detecting that the human activity amplitude exceeds a certain threshold, the status will display a yellow exclamation mark and the model will identify the behavior category.
-When the human activity amplitude is lower, it will switch to the heart rate and respiratory rate detection mode. After accumulating static signals for a certain period of time, the corresponding heart rate and respiratory rate values will be output and displayed.
+When the human activity amplitude is lower, it will switch to the heart rate and respiratory rate detection mode.
+After accumulating static signals for a certain period of time, the corresponding heart rate and respiratory rate values will be output and displayed.
 
 ## Directory Structure
 ```
@@ -29,13 +30,13 @@ When the human activity amplitude is lower, it will switch to the heart rate and
 ```
 ## Enviroments
 - OS: Windows 11
+- Ubuntu 20.04 LTS
 - GPU: Nvidia Geforce RTX 3060 Laptop
 - CUDA: 12.7
 - Python 3.10.11
-- Ubuntu 20.04 LTS
-
+- Pytorch: 1.13.0
 ## Requirements
-The code requires python>=3.10.11, as well as pytorch>=2.0.1 and CUDA 12.7
+The code requires python >= 3.10.11, as well as pytorch >= 1.13.0 and CUDA 12.7
 `git clone https://github.com/01rice20/RadarFusionGUI.git`
 
 ## Getting Started
